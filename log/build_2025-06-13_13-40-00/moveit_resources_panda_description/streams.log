@@ -1,0 +1,46 @@
+[0.141s] Invoking command in '/root/ros_ws/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/universal_robots_ur10e:/root/ros_ws/install/simple_moveit_app:/root/ros_ws/install/panda_moveit_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /root/ros_ws/build/moveit_resources_panda_description -- -j20 -l20
+[1.327s] Invoked command in '/root/ros_ws/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/universal_robots_ur10e:/root/ros_ws/install/simple_moveit_app:/root/ros_ws/install/panda_moveit_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /root/ros_ws/build/moveit_resources_panda_description -- -j20 -l20
+[1.328s] Invoking command in '/root/ros_ws/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/universal_robots_ur10e:/root/ros_ws/install/simple_moveit_app:/root/ros_ws/install/panda_moveit_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /root/ros_ws/build/moveit_resources_panda_description
+[1.352s] -- Install configuration: ""
+[1.354s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/ament_index/resource_index/package_run_dependencies/moveit_resources_panda_description
+[1.355s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/ament_index/resource_index/parent_prefix_path/moveit_resources_panda_description
+[1.356s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.sh
+[1.357s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.dsv
+[1.359s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.sh
+[1.360s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.dsv
+[1.362s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.bash
+[1.362s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.sh
+[1.363s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.zsh
+[1.363s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.dsv
+[1.364s] -- Installing: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.dsv
+[1.365s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/ament_index/resource_index/packages/moveit_resources_panda_description
+[1.365s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig.cmake
+[1.366s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig-version.cmake
+[1.366s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.xml
+[1.367s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes
+[1.368s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual
+[1.368s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/finger.dae
+[1.369s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link0.dae
+[1.369s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link3.dae
+[1.369s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link7.dae
+[1.370s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link2.dae
+[1.371s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link1.dae
+[1.371s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link4.dae
+[1.372s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/hand.dae
+[1.372s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link6.dae
+[1.373s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link5.dae
+[1.373s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision
+[1.373s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link0.stl
+[1.374s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link6.stl
+[1.374s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link1.stl
+[1.375s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link2.stl
+[1.375s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link4.stl
+[1.376s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link3.stl
+[1.376s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link5.stl
+[1.376s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/finger.stl
+[1.377s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link7.stl
+[1.377s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/hand.stl
+[1.378s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf
+[1.378s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf/panda.urdf.xacro
+[1.378s] -- Up-to-date: /root/ros_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf/panda.urdf
+[1.758s] Invoked command in '/root/ros_ws/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/universal_robots_ur10e:/root/ros_ws/install/simple_moveit_app:/root/ros_ws/install/panda_moveit_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /root/ros_ws/build/moveit_resources_panda_description

@@ -1,0 +1,15 @@
+[2.057s] Invoking command in '/root/ros_ws/rtb_env/lib/python3.12/site-packages/pkg_resources/tests/data/my-test-package-source': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/root/ros_ws/build/my-test-package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/my-test-package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../../../../build/my-test-package build --build-base /root/ros_ws/build/my-test-package/build install --record /root/ros_ws/build/my-test-package/install.log --single-version-externally-managed
+[2.179s] running egg_info
+[2.180s] creating ../../../../../../../../build/my-test-package/my_test_package.egg-info
+[2.225s] writing ../../../../../../../../build/my-test-package/my_test_package.egg-info/PKG-INFO
+[2.225s] writing dependency_links to ../../../../../../../../build/my-test-package/my_test_package.egg-info/dependency_links.txt
+[2.226s] writing top-level names to ../../../../../../../../build/my-test-package/my_test_package.egg-info/top_level.txt
+[2.226s] writing manifest file '../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt'
+[2.297s] reading manifest file '../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt'
+[2.298s] writing manifest file '../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt'
+[2.298s] running build
+[2.298s] running install
+[2.307s] running install_egg_info
+[2.403s] Copying ../../../../../../../../build/my-test-package/my_test_package.egg-info to /root/ros_ws/install/my-test-package/lib/python3.12/site-packages/my_test_package-1.0-py3.12.egg-info
+[2.404s] running install_scripts
+[2.662s] writing list of installed files to '/root/ros_ws/build/my-test-package/install.log'

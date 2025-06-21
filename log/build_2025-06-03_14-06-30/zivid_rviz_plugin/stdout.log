@@ -1,0 +1,31 @@
+[  0%] Built target zivid_rviz_plugin_autogen_timestamp_deps
+[ 14%] Built target zivid_rviz_plugin_autogen
+[100%] Built target zivid_rviz_plugin
+-- Install configuration: ""
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/lib/libzivid_rviz_plugin.so
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/include
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/include/zivid_rviz_plugin
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/include/zivid_rviz_plugin/infield_correction.hpp
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/plugins.xml
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/icons/classes/Zivid Infield Correction.png
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/plugins.xml
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/ament_index/resource_index/package_run_dependencies/zivid_rviz_plugin
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/ament_index/resource_index/parent_prefix_path/zivid_rviz_plugin
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/environment/ament_prefix_path.sh
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/environment/path.sh
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/environment/path.dsv
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/local_setup.bash
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/local_setup.sh
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/local_setup.zsh
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/local_setup.dsv
+-- Installing: /root/ros_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/package.dsv
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/ament_index/resource_index/packages/zivid_rviz_plugin
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/ament_index/resource_index/rviz_common__pluginlib__plugin/zivid_rviz_plugin
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/cmake/export_zivid_rviz_pluginExport.cmake
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/cmake/export_zivid_rviz_pluginExport-noconfig.cmake
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/cmake/zivid_rviz_pluginConfig.cmake
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/cmake/zivid_rviz_pluginConfig-version.cmake
+-- Up-to-date: /root/ros_ws/install/zivid_rviz_plugin/share/zivid_rviz_plugin/package.xml

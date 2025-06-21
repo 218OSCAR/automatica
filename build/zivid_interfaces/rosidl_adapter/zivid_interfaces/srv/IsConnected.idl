@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from zivid_interfaces/srv/IsConnected.srv
+// generated code does not contain a copyright notice
+
+
+module zivid_interfaces {
+  module srv {
+    struct IsConnected_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct IsConnected_Response {
+      boolean is_connected;
+    };
+  };
+};

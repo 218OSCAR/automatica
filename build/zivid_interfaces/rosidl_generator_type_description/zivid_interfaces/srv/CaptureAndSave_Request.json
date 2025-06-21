@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "zivid_interfaces/srv/CaptureAndSave_Request",
+      "fields": [
+        {
+          "name": "file_path",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "zivid_interfaces/srv/CaptureAndSave_Request",
+      "hash_string": "RIHS01_1d860ab243b2f0e06511e7eea25b208f1405beb8b5cb514ee61deea6c6326f4c"
+    }
+  ]
+}

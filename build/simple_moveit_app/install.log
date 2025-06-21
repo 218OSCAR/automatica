@@ -1,0 +1,16 @@
+/root/ros_ws/install/simple_moveit_app/lib/python3.12/site-packages/simple_moveit_app/__init__.py
+/root/ros_ws/install/simple_moveit_app/lib/python3.12/site-packages/simple_moveit_app/simple_moveit_app.py
+/root/ros_ws/install/simple_moveit_app/lib/python3.12/site-packages/simple_moveit_app/__pycache__/__init__.cpython-312.pyc
+/root/ros_ws/install/simple_moveit_app/lib/python3.12/site-packages/simple_moveit_app/__pycache__/simple_moveit_app.cpython-312.pyc
+/root/ros_ws/install/simple_moveit_app/share/ament_index/resource_index/packages/simple_moveit_app
+/root/ros_ws/install/simple_moveit_app/share/simple_moveit_app/package.xml
+/root/ros_ws/install/simple_moveit_app/share/simple_moveit_app/launch/simple_moveit_app.launch.py
+/root/ros_ws/install/simple_moveit_app/share/simple_moveit_app/config/planning_python_api.yaml
+/root/ros_ws/install/simple_moveit_app/lib/python3.12/site-packages/simple_moveit_app-0.0.0-py3.12.egg-info/SOURCES.txt
+/root/ros_ws/install/simple_moveit_app/lib/python3.12/site-packages/simple_moveit_app-0.0.0-py3.12.egg-info/PKG-INFO
+/root/ros_ws/install/simple_moveit_app/lib/python3.12/site-packages/simple_moveit_app-0.0.0-py3.12.egg-info/entry_points.txt
+/root/ros_ws/install/simple_moveit_app/lib/python3.12/site-packages/simple_moveit_app-0.0.0-py3.12.egg-info/zip-safe
+/root/ros_ws/install/simple_moveit_app/lib/python3.12/site-packages/simple_moveit_app-0.0.0-py3.12.egg-info/requires.txt
+/root/ros_ws/install/simple_moveit_app/lib/python3.12/site-packages/simple_moveit_app-0.0.0-py3.12.egg-info/top_level.txt
+/root/ros_ws/install/simple_moveit_app/lib/python3.12/site-packages/simple_moveit_app-0.0.0-py3.12.egg-info/dependency_links.txt
+/root/ros_ws/install/simple_moveit_app/lib/simple_moveit_app/simple_moveit_app

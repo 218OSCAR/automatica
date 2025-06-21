@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from zivid_interfaces/srv/HandEyeCalibrationLoad.srv
+// generated code does not contain a copyright notice
+
+#include "zivid_interfaces/msg/HandEyeCalibrationObjects.idl"
+
+module zivid_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Specify the working directory to load captures (ZDF) and robot poses (YAML) from a previous hand-eye calibration" "\n"
+      "session. The hand-eye calibration will be started in a read-only mode. No new captures can be made, but calibration" "\n"
+      "can be done on the existing files in the workspace.")
+    struct HandEyeCalibrationLoad_Request {
+      string working_directory;
+
+      @verbatim (language="comment", text=
+        "Specify the calibration object(s) used during the hand-eye calibration session.")
+      zivid_interfaces::msg::HandEyeCalibrationObjects calibration_objects;
+    };
+    struct HandEyeCalibrationLoad_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

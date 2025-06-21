@@ -1,0 +1,21 @@
+[2.593s] Invoking command in '/root/ros_ws/src/simple_moveit_app': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/root/ros_ws/build/simple_moveit_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/simple_moveit_app/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_moveit_app build --build-base /root/ros_ws/build/simple_moveit_app/build install --record /root/ros_ws/build/simple_moveit_app/install.log --single-version-externally-managed install_data
+[3.134s] running egg_info
+[3.171s] writing ../../build/simple_moveit_app/simple_moveit_app.egg-info/PKG-INFO
+[3.172s] writing dependency_links to ../../build/simple_moveit_app/simple_moveit_app.egg-info/dependency_links.txt
+[3.172s] writing entry points to ../../build/simple_moveit_app/simple_moveit_app.egg-info/entry_points.txt
+[3.172s] writing requirements to ../../build/simple_moveit_app/simple_moveit_app.egg-info/requires.txt
+[3.172s] writing top-level names to ../../build/simple_moveit_app/simple_moveit_app.egg-info/top_level.txt
+[3.277s] reading manifest file '../../build/simple_moveit_app/simple_moveit_app.egg-info/SOURCES.txt'
+[3.279s] writing manifest file '../../build/simple_moveit_app/simple_moveit_app.egg-info/SOURCES.txt'
+[3.280s] running build
+[3.280s] running build_py
+[3.282s] running install
+[3.295s] running install_lib
+[3.366s] running install_data
+[3.366s] running install_egg_info
+[3.438s] removing '/root/ros_ws/install/simple_moveit_app/lib/python3.12/site-packages/simple_moveit_app-0.0.0-py3.12.egg-info' (and everything under it)
+[3.439s] Copying ../../build/simple_moveit_app/simple_moveit_app.egg-info to /root/ros_ws/install/simple_moveit_app/lib/python3.12/site-packages/simple_moveit_app-0.0.0-py3.12.egg-info
+[3.439s] running install_scripts
+[3.749s] Installing simple_moveit_app script to /root/ros_ws/install/simple_moveit_app/lib/simple_moveit_app
+[3.749s] writing list of installed files to '/root/ros_ws/build/simple_moveit_app/install.log'
+[3.793s] Invoked command in '/root/ros_ws/src/simple_moveit_app' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/root/ros_ws/build/simple_moveit_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/simple_moveit_app/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_moveit_app build --build-base /root/ros_ws/build/simple_moveit_app/build install --record /root/ros_ws/build/simple_moveit_app/install.log --single-version-externally-managed install_data

@@ -1,0 +1,2 @@
+[console_scripts]
+simple_moveit_app = simple_moveit_app.simple_moveit_app:main

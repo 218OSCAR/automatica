@@ -1,0 +1,3 @@
+source;share/zivid_camera/environment/ament_prefix_path.sh
+source;share/zivid_camera/environment/library_path.sh
+source;share/zivid_camera/environment/path.sh

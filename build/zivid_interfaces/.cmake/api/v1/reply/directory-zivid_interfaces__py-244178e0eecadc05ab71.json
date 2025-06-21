@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "zivid_interfaces__py",
+		"source" : "/root/ros_ws/build/zivid_interfaces/zivid_interfaces__py"
+	}
+}

@@ -1,0 +1,8 @@
+setup.py
+cable_detection_picking/__init__.py
+cable_detection_picking.egg-info/PKG-INFO
+cable_detection_picking.egg-info/SOURCES.txt
+cable_detection_picking.egg-info/dependency_links.txt
+cable_detection_picking.egg-info/top_level.txt
+cable_detection_picking/action/__init__.py
+cable_detection_picking/action/_run_pipeline.py

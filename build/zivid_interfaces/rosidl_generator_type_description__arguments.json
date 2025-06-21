@@ -1,0 +1,34 @@
+{
+  "package_name": "zivid_interfaces",
+  "output_dir": "/root/ros_ws/build/zivid_interfaces/rosidl_generator_type_description/zivid_interfaces",
+  "idl_tuples": [
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:msg/DetectionResultCalibrationBoard.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:msg/DetectionResultFiducialMarkers.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:msg/FixedPlacementOfCalibrationBoard.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:msg/FixedPlacementOfCalibrationObjects.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:msg/FixedPlacementOfFiducialMarker.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:msg/HandEyeCalibrationObjects.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:msg/HandEyeCalibrationResidual.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:msg/MarkerShape.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:srv/CaptureAndDetectCalibrationBoard.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:srv/CaptureAndDetectMarkers.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:srv/CaptureAndSave.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:srv/CaptureAssistantSuggestSettings.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:srv/CameraInfoModelName.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:srv/CameraInfoSerialNumber.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:srv/HandEyeCalibrationCalibrate.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:srv/HandEyeCalibrationCapture.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:srv/HandEyeCalibrationLoad.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:srv/HandEyeCalibrationStart.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:srv/InfieldCorrectionCapture.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:srv/InfieldCorrectionCompute.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:srv/InfieldCorrectionRead.idl",
+    "/root/ros_ws/build/zivid_interfaces/rosidl_adapter/zivid_interfaces:srv/IsConnected.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

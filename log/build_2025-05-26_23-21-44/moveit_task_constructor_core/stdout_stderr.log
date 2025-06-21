@@ -1,0 +1,183 @@
+[  0%] Built target ament_cmake_python_copy_moveit
+[  2%] Built target gmock_main
+[  4%] Built target gtest_main
+[  8%] Built target gmock
+[ 10%] Built target gtest
+[ 28%] Built target moveit_task_constructor_core
+[ 33%] Built target gtest_utils
+[ 54%] Built target moveit_task_constructor_core_stages
+[ 56%] Built target moveit_task_constructor_core-test-serial
+[ 58%] Built target moveit_task_constructor_core-test-properties
+[ 62%] Built target moveit_task_constructor_core-test-stage
+[ 63%] Built target moveit_task_constructor_core_stage_plugins
+[ 65%] Built target moveit_task_constructor_core-test-fallback
+[ 67%] Built target moveit_task_constructor_core-test-pruning
+[ 70%] Built target moveit_task_constructor_core-test-cost-queue
+[ 72%] Built target moveit_task_constructor_core-test-interface-state
+[ 74%] Built target moveit_task_constructor_core-test-cost-terms
+[ 77%] Built target moveit_task_constructor_core-test-mockups
+[ 79%] Built target moveit_task_constructor_core-test-pipeline-planner
+[ 81%] Built target pick_ur5
+[ 83%] Built target moveit_task_constructor_core-test-move-to
+[ 86%] Built target moveit_task_constructor_core-test-move-relative
+[ 88%] Built target pick_pr2
+[ 90%] Built target moveit_task_constructor_core-test-container
+[ 93%] Built target pick_pa10
+[100%] Built target pymoveit_mtc
+running egg_info
+writing moveit.egg-info/PKG-INFO
+writing dependency_links to moveit.egg-info/dependency_links.txt
+writing top-level names to moveit.egg-info/top_level.txt
+reading manifest file 'moveit.egg-info/SOURCES.txt'
+writing manifest file 'moveit.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_moveit_egg
+-- Install configuration: "Release"
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core_stages.so
+-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core_stages.so" to ""
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core_stage_plugins.so
+-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core_stage_plugins.so" to ""
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core.so
+-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core.so" to ""
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/pythonpath.sh
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/pythonpath.dsv
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages/moveit-0.1.3-py3.12.egg-info
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages/moveit-0.1.3-py3.12.egg-info/top_level.txt
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages/moveit-0.1.3-py3.12.egg-info/SOURCES.txt
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages/moveit-0.1.3-py3.12.egg-info/PKG-INFO
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages/moveit-0.1.3-py3.12.egg-info/dependency_links.txt
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages/moveit
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages/moveit/task_constructor
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages/moveit/task_constructor/__init__.py
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages/moveit/task_constructor/stages.py
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages/moveit/task_constructor/core.py
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages/moveit/__init__.py
+Listing '/root/ros_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages/moveit'...
+Compiling '/root/ros_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages/moveit/__init__.py'...
+Listing '/root/ros_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages/moveit/task_constructor'...
+Compiling '/root/ros_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages/moveit/task_constructor/__init__.py'...
+Compiling '/root/ros_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages/moveit/task_constructor/core.py'...
+Compiling '/root/ros_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages/moveit/task_constructor/stages.py'...
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/operators.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/pytypes.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/trampoline_self_life_support.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/buffer_info.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/type_caster_pyobject_ptr.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/eigen.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/stl.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/chrono.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/cast.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/pybind11.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/smart_holder.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/options.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/gil_safe_call_once.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/eval.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/eigen
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/eigen/matrix.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/eigen/tensor.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/eigen/common.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/numpy.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/embed.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/complex.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/functional.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/common.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/typing.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/attr.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/stl_bind.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/iostream.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/internals.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/dynamic_raw_ptr_cast_if_possible.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/smart_holder_poc.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/init.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/class.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/common.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/smart_holder_sfinae_hooks_only.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/smart_holder_type_casters.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/typeid.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/type_caster_odr_guard.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/descr.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/detail/type_caster_base.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/gil.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/stl
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/pybind11/stl/filesystem.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/pybind11Config.cmake
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/pybind11ConfigVersion.cmake
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/FindPythonLibsNew.cmake
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/pybind11Common.cmake
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/pybind11Tools.cmake
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/pybind11NewTools.cmake
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/pybind11Targets.cmake
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/pkgconfig/pybind11.pc
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages/pymoveit_mtc.cpython-312-x86_64-linux-gnu.so
+-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages/pymoveit_mtc.cpython-312-x86_64-linux-gnu.so" to ""
+-- Up-to-date: /root/ros_ws/install/moveit_task_constructor_core/include
+-- Up-to-date: /root/ros_ws/install/moveit_task_constructor_core/include/moveit
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/container.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/moveit_compat.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/marker_tools.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_terms.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/multi_planner.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/pick.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/noop.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/simple_grasp.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/merge.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h
+-- Up-to-date: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/task_constructor
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/include/moveit/python/task_constructor/properties.h
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/motion_planning_stages_plugin_description.xml
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/library_path.sh
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/library_path.dsv
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/ament_index/resource_index/package_run_dependencies/moveit_task_constructor_core
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/ament_index/resource_index/parent_prefix_path/moveit_task_constructor_core
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/ament_prefix_path.sh
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/ament_prefix_path.dsv
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/path.sh
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/path.dsv
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/local_setup.bash
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/local_setup.sh
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/local_setup.zsh
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/local_setup.dsv
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/package.dsv
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/ament_index/resource_index/packages/moveit_task_constructor_core
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/ament_index/resource_index/moveit_task_constructor_core__pluginlib__plugin/moveit_task_constructor_core
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreTargetsExport.cmake
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreTargetsExport-release.cmake
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig.cmake
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig-version.cmake
+-- Installing: /root/ros_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/package.xml

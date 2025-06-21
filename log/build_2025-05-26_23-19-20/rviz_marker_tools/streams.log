@@ -1,0 +1,70 @@
+[0.026s] Invoking command in '/root/ros_ws/build/rviz_marker_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_ws/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/rviz_marker_tools
+[0.420s] -- The C compiler identification is GNU 13.3.0
+[0.421s] -- The CXX compiler identification is GNU 13.3.0
+[0.421s] -- Detecting C compiler ABI info
+[0.421s] -- Detecting C compiler ABI info - done
+[0.421s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.421s] -- Detecting C compile features
+[0.421s] -- Detecting C compile features - done
+[0.421s] -- Detecting CXX compiler ABI info
+[0.421s] -- Detecting CXX compiler ABI info - done
+[0.421s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.421s] -- Detecting CXX compile features
+[0.421s] -- Detecting CXX compile features - done
+[0.421s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.421s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.428s] -- Found moveit_common: 2.12.3 (/opt/ros/jazzy/share/moveit_common/cmake)
+[0.478s] [0mrviz_marker_tools: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.482s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.492s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.496s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.561s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.580s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.602s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.626s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.668s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.727s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.730s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.792s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.805s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.818s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.869s] -- Found tf2_eigen: 0.36.11 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[0.968s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.003s] -- Configuring done (1.0s)
+[1.012s] -- Generating done (0.0s)
+[1.014s] -- Build files have been written to: /root/ros_ws/build/rviz_marker_tools
+[1.019s] Invoked command in '/root/ros_ws/build/rviz_marker_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_ws/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/rviz_marker_tools
+[1.020s] Invoking command in '/root/ros_ws/build/rviz_marker_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_ws/build/rviz_marker_tools -- -j28 -l28
+[1.057s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_marker_tools.dir/src/marker_creation.cpp.o[0m
+[3.747s] [100%] [32m[1mLinking CXX shared library librviz_marker_tools.so[0m
+[3.847s] [100%] Built target rviz_marker_tools
+[3.856s] Invoked command in '/root/ros_ws/build/rviz_marker_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_ws/build/rviz_marker_tools -- -j28 -l28
+[3.857s] Invoking command in '/root/ros_ws/build/rviz_marker_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_ws/build/rviz_marker_tools
+[3.862s] -- Install configuration: "Release"
+[3.862s] -- Installing: /root/ros_ws/install/rviz_marker_tools/include
+[3.862s] -- Installing: /root/ros_ws/install/rviz_marker_tools/include/rviz_marker_tools
+[3.862s] -- Installing: /root/ros_ws/install/rviz_marker_tools/include/rviz_marker_tools/marker_creation.h
+[3.862s] -- Installing: /root/ros_ws/install/rviz_marker_tools/lib/librviz_marker_tools.so
+[3.862s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/rviz_marker_tools/lib/librviz_marker_tools.so" to ""
+[3.862s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.sh
+[3.863s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.dsv
+[3.863s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/ament_index/resource_index/package_run_dependencies/rviz_marker_tools
+[3.863s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/ament_index/resource_index/parent_prefix_path/rviz_marker_tools
+[3.863s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.sh
+[3.863s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.dsv
+[3.863s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.sh
+[3.863s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.dsv
+[3.863s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.bash
+[3.863s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.sh
+[3.863s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.zsh
+[3.863s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.dsv
+[3.863s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/rviz_marker_tools/package.dsv
+[3.863s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/ament_index/resource_index/packages/rviz_marker_tools
+[3.863s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport.cmake
+[3.864s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport-release.cmake
+[3.864s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_targets-extras.cmake
+[3.864s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.864s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig.cmake
+[3.864s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig-version.cmake
+[3.864s] -- Installing: /root/ros_ws/install/rviz_marker_tools/share/rviz_marker_tools/package.xml
+[3.865s] Invoked command in '/root/ros_ws/build/rviz_marker_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_ws/build/rviz_marker_tools

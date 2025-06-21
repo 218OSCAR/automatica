@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-094a1a6b74bb9b3bfa1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zivid_samples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_capture_2d_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_capture_2d_cpp-4b1203bea3a610b3f262.json",
+					"name" : "sample_capture_2d_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_capture_and_detect_calibration_board_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_capture_and_detect_calibration_board_cpp-ec846dc52a2131904864.json",
+					"name" : "sample_capture_and_detect_calibration_board_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_capture_and_detect_markers_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_capture_and_detect_markers_cpp-52050b4d8449af5c84ae.json",
+					"name" : "sample_capture_and_detect_markers_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_capture_and_save_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_capture_and_save_cpp-175f195b2f53f437a813.json",
+					"name" : "sample_capture_and_save_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_capture_assistant_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_capture_assistant_cpp-7bcb6e0d0026ebc61b29.json",
+					"name" : "sample_capture_assistant_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_capture_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_capture_cpp-8e33f85b285213c050d4.json",
+					"name" : "sample_capture_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_capture_with_settings_from_file_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_capture_with_settings_from_file_cpp-64f4eb2f091a635d117e.json",
+					"name" : "sample_capture_with_settings_from_file_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_hand_eye_calibration_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_hand_eye_calibration_cpp-6cbde230fd4fe24bec3b.json",
+					"name" : "sample_hand_eye_calibration_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_infield_correction_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_infield_correction_cpp-b8c75a30f3d7efddeb38.json",
+					"name" : "sample_infield_correction_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4a59281309ac25328682.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zivid_samples_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zivid_samples_uninstall-bfeca7e2fbb2422da5e9.json",
+					"name" : "zivid_samples_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros_ws/build/zivid_samples",
+		"source" : "/root/ros_ws/src/zivid-ros/zivid_samples"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

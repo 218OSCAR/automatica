@@ -1,0 +1,73 @@
+[  5%] [32mBuilding CXX object CMakeFiles/sample_infield_correction_cpp.dir/src/sample_infield_correction.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/sample_capture_cpp.dir/src/sample_capture.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/sample_hand_eye_calibration_cpp.dir/src/sample_hand_eye_calibration.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/sample_capture_assistant_cpp.dir/src/sample_capture_assistant.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/sample_capture_2d_cpp.dir/src/sample_capture_2d.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/sample_capture_and_detect_calibration_board_cpp.dir/src/sample_capture_and_detect_calibration_board.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/sample_capture_and_save_cpp.dir/src/sample_capture_and_save.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/sample_capture_and_detect_markers_cpp.dir/src/sample_capture_and_detect_markers.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sample_capture_with_settings_from_file_cpp.dir/src/sample_capture_with_settings_from_file.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable sample_capture_and_save_cpp[0m
+[ 55%] Built target sample_capture_and_save_cpp
+[ 61%] [32m[1mLinking CXX executable sample_capture_and_detect_markers_cpp[0m
+[ 61%] Built target sample_capture_and_detect_markers_cpp
+[ 66%] [32m[1mLinking CXX executable sample_capture_and_detect_calibration_board_cpp[0m
+[ 66%] Built target sample_capture_and_detect_calibration_board_cpp
+[ 72%] [32m[1mLinking CXX executable sample_hand_eye_calibration_cpp[0m
+[ 72%] Built target sample_hand_eye_calibration_cpp
+[ 77%] [32m[1mLinking CXX executable sample_capture_with_settings_from_file_cpp[0m
+[ 83%] [32m[1mLinking CXX executable sample_infield_correction_cpp[0m
+[ 83%] Built target sample_infield_correction_cpp
+[ 83%] Built target sample_capture_with_settings_from_file_cpp
+[ 88%] [32m[1mLinking CXX executable sample_capture_cpp[0m
+[ 88%] Built target sample_capture_cpp
+[ 94%] [32m[1mLinking CXX executable sample_capture_2d_cpp[0m
+[ 94%] Built target sample_capture_2d_cpp
+[100%] [32m[1mLinking CXX executable sample_capture_assistant_cpp[0m
+[100%] Built target sample_capture_assistant_cpp
+-- Install configuration: ""
+-- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_cpp
+-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_cpp" to ""
+-- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_2d_cpp
+-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_2d_cpp" to ""
+-- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_save_cpp
+-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_save_cpp" to ""
+-- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_assistant_cpp
+-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_assistant_cpp" to ""
+-- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_with_settings_from_file_cpp
+-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_with_settings_from_file_cpp" to ""
+-- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_detect_calibration_board_cpp
+-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_detect_calibration_board_cpp" to ""
+-- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_detect_markers_cpp
+-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_detect_markers_cpp" to ""
+-- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_infield_correction_cpp
+-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_infield_correction_cpp" to ""
+-- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_hand_eye_calibration_cpp
+-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_hand_eye_calibration_cpp" to ""
+-- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture.py
+-- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_2d.py
+-- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_save.py
+-- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_assistant.py
+-- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_with_settings_from_file.py
+-- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_depth_color_pcl.py
+-- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/launch
+-- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/launch/sample.launch
+-- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/launch/zivid_camera_with_serial_number.launch
+-- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/launch/sample_with_rviz.launch
+-- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/settings
+-- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/settings/camera_settings.yml
+-- Installing: /root/ros_ws/install/zivid_samples/share/ament_index/resource_index/package_run_dependencies/zivid_samples
+-- Installing: /root/ros_ws/install/zivid_samples/share/ament_index/resource_index/parent_prefix_path/zivid_samples
+-- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/environment/ament_prefix_path.sh
+-- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/environment/ament_prefix_path.dsv
+-- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/environment/path.sh
+-- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/environment/path.dsv
+-- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/local_setup.bash
+-- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/local_setup.sh
+-- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/local_setup.zsh
+-- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/local_setup.dsv
+-- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/package.dsv
+-- Installing: /root/ros_ws/install/zivid_samples/share/ament_index/resource_index/packages/zivid_samples
+-- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/cmake/zivid_samplesConfig.cmake
+-- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/cmake/zivid_samplesConfig-version.cmake
+-- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/package.xml

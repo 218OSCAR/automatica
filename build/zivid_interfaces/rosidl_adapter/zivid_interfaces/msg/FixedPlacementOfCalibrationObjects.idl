@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from zivid_interfaces/msg/FixedPlacementOfCalibrationObjects.msg
+// generated code does not contain a copyright notice
+
+#include "zivid_interfaces/msg/FixedPlacementOfCalibrationBoard.idl"
+#include "zivid_interfaces/msg/FixedPlacementOfFiducialMarker.idl"
+
+module zivid_interfaces {
+  module msg {
+    module FixedPlacementOfCalibrationObjects_Constants {
+      const uint8 NONE = 0;
+      const uint8 CALIBRATION_BOARD = 1;
+      const uint8 FIDUCIAL_MARKERS = 2;
+    };
+    struct FixedPlacementOfCalibrationObjects {
+      @verbatim (language="comment", text=
+        "The type of calibration objects to use for low degrees-of-freedom (DOF) hand-eye calibration, if any:" "\n"
+        "NONE (default) or CALIBRATION_BOARD or FIDUCIAL_MARKERS" "\n"
+        "If set to NONE, regular (6-DOF) hand-eye calibration is performed.")
+      uint8 type;
+
+      @verbatim (language="comment", text=
+        "For CALIBRATION_BOARD type" "\n"
+        "Specifies the fixed placement of a Zivid calibration board for low degrees-of-freedom hand-eye calibration." "\n"
+        "This field is not needed for regular (6-DOF) hand-eye calibration.")
+      zivid_interfaces::msg::FixedPlacementOfCalibrationBoard calibration_board;
+
+      @verbatim (language="comment", text=
+        "For FIDUCIAL_MARKERS type" "\n"
+        "The dictionary that describes the appearance of the markers specified below. Example: \"aruco4x4_50\". Only applies to" "\n"
+        "low degrees-of-freedom hand-eye calibration. This field is not needed for regular (6-DOF) hand-eye calibration.")
+      string marker_dictionary;
+
+      @verbatim (language="comment", text=
+        "A list describing the fixed placement of fiducial markers for low degrees-of-freedom hand-eye calibration." "\n"
+        "This field is not needed for regular (6-DOF) hand-eye calibration.")
+      sequence<zivid_interfaces::msg::FixedPlacementOfFiducialMarker> markers;
+    };
+  };
+};

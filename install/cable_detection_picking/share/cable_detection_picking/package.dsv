@@ -1,0 +1,14 @@
+source;share/cable_detection_picking/hook/cmake_prefix_path.ps1
+source;share/cable_detection_picking/hook/cmake_prefix_path.dsv
+source;share/cable_detection_picking/hook/cmake_prefix_path.sh
+source;share/cable_detection_picking/hook/ld_library_path_lib.ps1
+source;share/cable_detection_picking/hook/ld_library_path_lib.dsv
+source;share/cable_detection_picking/hook/ld_library_path_lib.sh
+source;share/cable_detection_picking/hook/pythonpath.ps1
+source;share/cable_detection_picking/hook/pythonpath.dsv
+source;share/cable_detection_picking/hook/pythonpath.sh
+source;share/cable_detection_picking/local_setup.bash
+source;share/cable_detection_picking/local_setup.dsv
+source;share/cable_detection_picking/local_setup.ps1
+source;share/cable_detection_picking/local_setup.sh
+source;share/cable_detection_picking/local_setup.zsh

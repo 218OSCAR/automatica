@@ -1,0 +1,4 @@
+-DROS_PACKAGE_NAME="zivid_rviz_plugin"
+-o
+/root/ros_ws/build/zivid_rviz_plugin/include/zivid_rviz_plugin/moc_infield_correction.cpp
+/root/ros_ws/src/zivid-ros/zivid_rviz_plugin/include/zivid_rviz_plugin/infield_correction.hpp

@@ -1,0 +1,21 @@
+[2.614s] Invoking command in '/root/ros_ws/src/universal_robots_ur10e': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/root/ros_ws/build/universal_robots_ur10e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/universal_robots_ur10e/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/universal_robots_ur10e build --build-base /root/ros_ws/build/universal_robots_ur10e/build install --record /root/ros_ws/build/universal_robots_ur10e/install.log --single-version-externally-managed install_data
+[3.201s] running egg_info
+[3.246s] writing ../../build/universal_robots_ur10e/universal_robots_ur10e.egg-info/PKG-INFO
+[3.246s] writing dependency_links to ../../build/universal_robots_ur10e/universal_robots_ur10e.egg-info/dependency_links.txt
+[3.247s] writing entry points to ../../build/universal_robots_ur10e/universal_robots_ur10e.egg-info/entry_points.txt
+[3.247s] writing requirements to ../../build/universal_robots_ur10e/universal_robots_ur10e.egg-info/requires.txt
+[3.247s] writing top-level names to ../../build/universal_robots_ur10e/universal_robots_ur10e.egg-info/top_level.txt
+[3.340s] reading manifest file '../../build/universal_robots_ur10e/universal_robots_ur10e.egg-info/SOURCES.txt'
+[3.341s] writing manifest file '../../build/universal_robots_ur10e/universal_robots_ur10e.egg-info/SOURCES.txt'
+[3.341s] running build
+[3.342s] running build_py
+[3.342s] running install
+[3.352s] running install_lib
+[3.401s] running install_data
+[3.402s] running install_egg_info
+[3.451s] removing '/root/ros_ws/install/universal_robots_ur10e/lib/python3.12/site-packages/universal_robots_ur10e-0.1.0-py3.12.egg-info' (and everything under it)
+[3.451s] Copying ../../build/universal_robots_ur10e/universal_robots_ur10e.egg-info to /root/ros_ws/install/universal_robots_ur10e/lib/python3.12/site-packages/universal_robots_ur10e-0.1.0-py3.12.egg-info
+[3.453s] running install_scripts
+[3.727s] Installing scene_subscriber script to /root/ros_ws/install/universal_robots_ur10e/lib/universal_robots_ur10e
+[3.727s] writing list of installed files to '/root/ros_ws/build/universal_robots_ur10e/install.log'
+[3.763s] Invoked command in '/root/ros_ws/src/universal_robots_ur10e' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/root/ros_ws/build/universal_robots_ur10e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/universal_robots_ur10e/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/universal_robots_ur10e build --build-base /root/ros_ws/build/universal_robots_ur10e/build install --record /root/ros_ws/build/universal_robots_ur10e/install.log --single-version-externally-managed install_data

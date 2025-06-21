@@ -1,0 +1,4 @@
+Invoking command in '/root/ros_ws/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_ws/build/moveit_resources_fanuc_description -- -j28 -l28
+Invoked command in '/root/ros_ws/build/moveit_resources_fanuc_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_ws/build/moveit_resources_fanuc_description -- -j28 -l28
+Invoking command in '/root/ros_ws/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_ws/build/moveit_resources_fanuc_description
+Invoked command in '/root/ros_ws/build/moveit_resources_fanuc_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_ws/build/moveit_resources_fanuc_description

@@ -1,0 +1,69 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from zivid_interfaces/msg/DetectionResultCalibrationBoard.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Pose.idl"
+
+module zivid_interfaces {
+  module msg {
+    module DetectionResultCalibrationBoard_Constants {
+      const uint8 STATUS_NOT_SET = 0;
+      const uint8 STATUS_OK = 1;
+      const uint8 STATUS_NO_VALID_FIDUCIAL_MARKER_DETECTED = 2;
+      const uint8 STATUS_MULTIPLE_VALID_FIDUCIAL_MARKERS_DETECTED = 3;
+      const uint8 STATUS_BOARD_DETECTION_FAILED = 4;
+      const uint8 STATUS_INSUFFICIENT_3D_QUALITY = 5;
+    };
+    struct DetectionResultCalibrationBoard {
+      @verbatim (language="comment", text=
+        "Get the detection status/validity as one of the above numeric status values.")
+      uint8 status;
+
+      @verbatim (language="comment", text=
+        "A human-readable description of the status.")
+      string status_description;
+
+      @verbatim (language="comment", text=
+        "The centroid of the detected feature points in camera-space." "\n"
+        "" "\n"
+        "Note: Lengths are given in units of meter. In the Zivid driver, the units are automatically converted from the default" "\n"
+        "units of the Zivid point clouds in millimeter, to the ROS convention of meter.")
+      geometry_msgs::msg::Point centroid;
+
+      @verbatim (language="comment", text=
+        "The position and orientation of the top left detected corner in the camera coordinate system." "\n"
+        "" "\n"
+        "Note: Lengths are given in units of meter. In the Zivid driver, the units are automatically converted from the default" "\n"
+        "units of the Zivid point clouds in millimeter, to the ROS convention of meter.")
+      geometry_msgs::msg::Pose pose;
+
+      @verbatim (language="comment", text=
+        "The detected feature points in camera-space." "\n"
+        "" "\n"
+        "Represents a list of 3D coordinates representing the centers of the calibration board squares. The points are arranged" "\n"
+        "in a 2D grid corresponding to the calibration board, with a size given by `feature_points_width` and" "\n"
+        "`feature_points_height`. The first element corresponds to the physical top-left corner of the board. Incrementing" "\n"
+        "indices first move to the right on the physical board and then wraps down." "\n"
+        "" "\n"
+        "Note: Lengths are given in units of meter. In the Zivid driver, the units are automatically converted from the default" "\n"
+        "units of the Zivid point clouds in millimeter, to the ROS convention of meter.")
+      sequence<geometry_msgs::msg::Point> feature_points;
+
+      @verbatim (language="comment", text=
+        "Get the detected feature points in pixel-space." "\n"
+        "" "\n"
+        "Same as `feature_points`, but with 2D coordinates instead of 3D coordinates. The points are reported at subpixel" "\n"
+        "accuracy. The third dimension (`z`) of each point is set to zero.")
+      sequence<geometry_msgs::msg::Point> feature_points_2d;
+
+      @verbatim (language="comment", text=
+        "The width (number of columns) of the feature points.")
+      uint64 feature_points_width;
+
+      @verbatim (language="comment", text=
+        "The height (number of rows) of the feature points.")
+      uint64 feature_points_height;
+    };
+  };
+};

@@ -1,0 +1,6 @@
+{
+  "package_name": "cable_detection_picking",
+  "non_idl_tuples": [
+    "/root/ros_ws/src/cable_detection_picking:action/RunPipeline.action"
+  ]
+}

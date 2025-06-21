@@ -1,0 +1,46 @@
+[ 11%] Built target gtest_main
+[ 22%] Built target gtest
+[ 61%] Built target zivid_camera_component
+[ 72%] Built target zivid_camera
+[100%] Built target zivid_camera_test
+-- Install configuration: ""
+-- Up-to-date: /root/ros_ws/install/zivid_camera/lib/zivid_camera/zivid_camera
+-- Up-to-date: /root/ros_ws/install/zivid_camera/lib/libzivid_camera_component.so
+-- Up-to-date: /root/ros_ws/install/zivid_camera/include
+-- Up-to-date: /root/ros_ws/install/zivid_camera/include/zivid_camera
+-- Up-to-date: /root/ros_ws/install/zivid_camera/include/zivid_camera/visibility.hpp
+-- Up-to-date: /root/ros_ws/install/zivid_camera/include/zivid_camera/infield_correction_controller.hpp
+-- Up-to-date: /root/ros_ws/install/zivid_camera/include/zivid_camera/utility.hpp
+-- Up-to-date: /root/ros_ws/install/zivid_camera/include/zivid_camera/hand_eye_calibration_controller.hpp
+-- Up-to-date: /root/ros_ws/install/zivid_camera/include/zivid_camera/zivid_camera.hpp
+-- Up-to-date: /root/ros_ws/install/zivid_camera/include/zivid_camera/capture_settings_controller.hpp
+-- Up-to-date: /root/ros_ws/install/zivid_camera/include/zivid_camera/detector_controller.hpp
+-- Up-to-date: /root/ros_ws/install/zivid_camera/include/zivid_camera/controller_interface.hpp
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/launch
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/launch/visualize.launch
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/config
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/config/rviz
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/config/rviz/zivid.rviz
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/environment/library_path.sh
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/environment/library_path.dsv
+-- Up-to-date: /root/ros_ws/install/zivid_camera/lib/libzivid_camera_component.so
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/ament_index/resource_index/package_run_dependencies/zivid_camera
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/ament_index/resource_index/parent_prefix_path/zivid_camera
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/environment/ament_prefix_path.sh
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/environment/path.sh
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/environment/path.dsv
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/local_setup.bash
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/local_setup.sh
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/local_setup.zsh
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/local_setup.dsv
+-- Installing: /root/ros_ws/install/zivid_camera/share/zivid_camera/package.dsv
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/ament_index/resource_index/packages/zivid_camera
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/ament_index/resource_index/rclcpp_components/zivid_camera
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/cmake/zivid_cameraTargetsExport.cmake
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/cmake/zivid_cameraTargetsExport-noconfig.cmake
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/cmake/zivid_cameraConfig.cmake
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/cmake/zivid_cameraConfig-version.cmake
+-- Up-to-date: /root/ros_ws/install/zivid_camera/share/zivid_camera/package.xml

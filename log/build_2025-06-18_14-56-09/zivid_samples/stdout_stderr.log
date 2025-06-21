@@ -1,0 +1,46 @@
+[ 11%] Built target sample_capture_2d_cpp
+[ 22%] Built target sample_capture_and_save_cpp
+[ 33%] Built target sample_capture_with_settings_from_file_cpp
+[ 44%] Built target sample_capture_and_detect_markers_cpp
+[ 55%] Built target sample_capture_cpp
+[ 66%] Built target sample_capture_and_detect_calibration_board_cpp
+[ 77%] Built target sample_capture_assistant_cpp
+[ 88%] Built target sample_hand_eye_calibration_cpp
+[100%] Built target sample_infield_correction_cpp
+-- Install configuration: ""
+-- Up-to-date: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_cpp
+-- Up-to-date: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_2d_cpp
+-- Up-to-date: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_save_cpp
+-- Up-to-date: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_assistant_cpp
+-- Up-to-date: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_with_settings_from_file_cpp
+-- Up-to-date: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_detect_calibration_board_cpp
+-- Up-to-date: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_detect_markers_cpp
+-- Up-to-date: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_infield_correction_cpp
+-- Up-to-date: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_hand_eye_calibration_cpp
+-- Up-to-date: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture.py
+-- Up-to-date: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_2d.py
+-- Up-to-date: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_save.py
+-- Up-to-date: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_assistant.py
+-- Up-to-date: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_with_settings_from_file.py
+-- Up-to-date: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_depth_color_pcl.py
+-- Up-to-date: /root/ros_ws/install/zivid_samples/share/zivid_samples/launch
+-- Up-to-date: /root/ros_ws/install/zivid_samples/share/zivid_samples/launch/zivid_camera_with_serial_number.launch
+-- Up-to-date: /root/ros_ws/install/zivid_samples/share/zivid_samples/launch/sample_with_rviz.launch
+-- Up-to-date: /root/ros_ws/install/zivid_samples/share/zivid_samples/launch/sample.launch
+-- Up-to-date: /root/ros_ws/install/zivid_samples/share/zivid_samples/settings
+-- Up-to-date: /root/ros_ws/install/zivid_samples/share/zivid_samples/settings/camera_settings.yml
+-- Up-to-date: /root/ros_ws/install/zivid_samples/share/ament_index/resource_index/package_run_dependencies/zivid_samples
+-- Up-to-date: /root/ros_ws/install/zivid_samples/share/ament_index/resource_index/parent_prefix_path/zivid_samples
+-- Up-to-date: /root/ros_ws/install/zivid_samples/share/zivid_samples/environment/ament_prefix_path.sh
+-- Up-to-date: /root/ros_ws/install/zivid_samples/share/zivid_samples/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/ros_ws/install/zivid_samples/share/zivid_samples/environment/path.sh
+-- Up-to-date: /root/ros_ws/install/zivid_samples/share/zivid_samples/environment/path.dsv
+-- Up-to-date: /root/ros_ws/install/zivid_samples/share/zivid_samples/local_setup.bash
+-- Up-to-date: /root/ros_ws/install/zivid_samples/share/zivid_samples/local_setup.sh
+-- Up-to-date: /root/ros_ws/install/zivid_samples/share/zivid_samples/local_setup.zsh
+-- Up-to-date: /root/ros_ws/install/zivid_samples/share/zivid_samples/local_setup.dsv
+-- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/package.dsv
+-- Up-to-date: /root/ros_ws/install/zivid_samples/share/ament_index/resource_index/packages/zivid_samples
+-- Up-to-date: /root/ros_ws/install/zivid_samples/share/zivid_samples/cmake/zivid_samplesConfig.cmake
+-- Up-to-date: /root/ros_ws/install/zivid_samples/share/zivid_samples/cmake/zivid_samplesConfig-version.cmake
+-- Up-to-date: /root/ros_ws/install/zivid_samples/share/zivid_samples/package.xml

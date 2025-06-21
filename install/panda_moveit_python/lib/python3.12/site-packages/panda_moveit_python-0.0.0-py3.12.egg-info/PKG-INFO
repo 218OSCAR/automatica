@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: panda-moveit-python
+Version: 0.0.0
+Summary: Python interface for controlling the Franka Emika Panda robot with MoveIt 2
+Maintainer: Tailai Chneg
+Maintainer-email: go34beq@mytum.de
+License: MIT

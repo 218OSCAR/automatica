@@ -1,0 +1,4 @@
+Invoking command in '/root/ros_ws/build/moveit_task_constructor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_ws/build/moveit_task_constructor_msgs -- -j28 -l28
+Invoked command in '/root/ros_ws/build/moveit_task_constructor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_ws/build/moveit_task_constructor_msgs -- -j28 -l28
+Invoking command in '/root/ros_ws/build/moveit_task_constructor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_ws/build/moveit_task_constructor_msgs
+Invoked command in '/root/ros_ws/build/moveit_task_constructor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_ws/build/moveit_task_constructor_msgs

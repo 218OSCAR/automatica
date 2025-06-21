@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/panda_moveit_python/panda_moveit_python.egg-info/PKG-INFO
+writing dependency_links to ../../build/panda_moveit_python/panda_moveit_python.egg-info/dependency_links.txt
+writing entry points to ../../build/panda_moveit_python/panda_moveit_python.egg-info/entry_points.txt
+writing requirements to ../../build/panda_moveit_python/panda_moveit_python.egg-info/requires.txt
+writing top-level names to ../../build/panda_moveit_python/panda_moveit_python.egg-info/top_level.txt
+reading manifest file '../../build/panda_moveit_python/panda_moveit_python.egg-info/SOURCES.txt'
+writing manifest file '../../build/panda_moveit_python/panda_moveit_python.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/motion_planning_python_api_tutorial.launch.py -> /root/ros_ws/install/panda_moveit_python/share/panda_moveit_python/launch
+copying launch/motion_planning_python_api_tutorial.launch.py -> /root/ros_ws/install/panda_moveit_python/lib/panda_moveit_python
+running install_egg_info
+removing '/root/ros_ws/install/panda_moveit_python/lib/python3.12/site-packages/panda_moveit_python-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/panda_moveit_python/panda_moveit_python.egg-info to /root/ros_ws/install/panda_moveit_python/lib/python3.12/site-packages/panda_moveit_python-0.0.0-py3.12.egg-info
+running install_scripts
+Installing motion_planning_python_api_tutorial script to /root/ros_ws/install/panda_moveit_python/lib/panda_moveit_python
+writing list of installed files to '/root/ros_ws/build/panda_moveit_python/install.log'

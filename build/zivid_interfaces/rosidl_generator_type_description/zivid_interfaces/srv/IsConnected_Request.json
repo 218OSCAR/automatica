@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "zivid_interfaces/srv/IsConnected_Request",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "zivid_interfaces/srv/IsConnected_Request",
+      "hash_string": "RIHS01_367444fdbe311205878e944fc1b5233b0110c275f303abdddcd4ea6ad9bc35a3"
+    }
+  ]
+}

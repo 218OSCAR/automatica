@@ -1,0 +1,17 @@
+{
+  "package_name": "moveit_task_constructor_msgs",
+  "non_idl_tuples": [
+    "/root/ros_ws/src/moveit_task_constructor/msgs:msg/Property.msg",
+    "/root/ros_ws/src/moveit_task_constructor/msgs:msg/Solution.msg",
+    "/root/ros_ws/src/moveit_task_constructor/msgs:msg/SolutionInfo.msg",
+    "/root/ros_ws/src/moveit_task_constructor/msgs:msg/StageDescription.msg",
+    "/root/ros_ws/src/moveit_task_constructor/msgs:msg/StageStatistics.msg",
+    "/root/ros_ws/src/moveit_task_constructor/msgs:msg/SubSolution.msg",
+    "/root/ros_ws/src/moveit_task_constructor/msgs:msg/SubTrajectory.msg",
+    "/root/ros_ws/src/moveit_task_constructor/msgs:msg/TaskDescription.msg",
+    "/root/ros_ws/src/moveit_task_constructor/msgs:msg/TaskStatistics.msg",
+    "/root/ros_ws/src/moveit_task_constructor/msgs:msg/TrajectoryExecutionInfo.msg",
+    "/root/ros_ws/src/moveit_task_constructor/msgs:srv/GetSolution.srv",
+    "/root/ros_ws/src/moveit_task_constructor/msgs:action/ExecuteTaskSolution.action"
+  ]
+}

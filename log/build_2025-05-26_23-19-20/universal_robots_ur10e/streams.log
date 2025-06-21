@@ -1,0 +1,57 @@
+[0.852s] Invoking command in '/root/ros_ws/src/universal_robots_ur10e': PYTHONPATH=/root/ros_ws/build/universal_robots_ur10e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/universal_robots_ur10e/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/universal_robots_ur10e build --build-base /root/ros_ws/build/universal_robots_ur10e/build install --record /root/ros_ws/build/universal_robots_ur10e/install.log --single-version-externally-managed install_data
+[1.001s] running egg_info
+[1.002s] creating ../../build/universal_robots_ur10e/universal_robots_ur10e.egg-info
+[1.013s] writing ../../build/universal_robots_ur10e/universal_robots_ur10e.egg-info/PKG-INFO
+[1.013s] writing dependency_links to ../../build/universal_robots_ur10e/universal_robots_ur10e.egg-info/dependency_links.txt
+[1.013s] writing entry points to ../../build/universal_robots_ur10e/universal_robots_ur10e.egg-info/entry_points.txt
+[1.013s] writing requirements to ../../build/universal_robots_ur10e/universal_robots_ur10e.egg-info/requires.txt
+[1.013s] writing top-level names to ../../build/universal_robots_ur10e/universal_robots_ur10e.egg-info/top_level.txt
+[1.013s] writing manifest file '../../build/universal_robots_ur10e/universal_robots_ur10e.egg-info/SOURCES.txt'
+[1.060s] reading manifest file '../../build/universal_robots_ur10e/universal_robots_ur10e.egg-info/SOURCES.txt'
+[1.061s] writing manifest file '../../build/universal_robots_ur10e/universal_robots_ur10e.egg-info/SOURCES.txt'
+[1.062s] running build
+[1.062s] running build_py
+[1.062s] creating /root/ros_ws/build/universal_robots_ur10e/build
+[1.062s] creating /root/ros_ws/build/universal_robots_ur10e/build/lib
+[1.062s] creating /root/ros_ws/build/universal_robots_ur10e/build/lib/universal_robots_ur10e
+[1.062s] copying universal_robots_ur10e/__init__.py -> /root/ros_ws/build/universal_robots_ur10e/build/lib/universal_robots_ur10e
+[1.062s] running install
+[1.066s] running install_lib
+[1.090s] creating /root/ros_ws/install/universal_robots_ur10e/lib/python3.12/site-packages/universal_robots_ur10e
+[1.090s] copying /root/ros_ws/build/universal_robots_ur10e/build/lib/universal_robots_ur10e/__init__.py -> /root/ros_ws/install/universal_robots_ur10e/lib/python3.12/site-packages/universal_robots_ur10e
+[1.091s] byte-compiling /root/ros_ws/install/universal_robots_ur10e/lib/python3.12/site-packages/universal_robots_ur10e/__init__.py to __init__.cpython-312.pyc
+[1.091s] running install_data
+[1.091s] copying package.xml -> /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e
+[1.091s] creating /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/launch
+[1.091s] copying launch/ur_moveit.launch.py -> /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/launch
+[1.092s] creating /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/config
+[1.092s] copying config/kinematics.yaml -> /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/config
+[1.092s] copying config/ur_controllers.yaml -> /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/config
+[1.092s] copying config/initial_positions.yaml -> /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/config
+[1.092s] copying config/moveit_controllers.yaml -> /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/config
+[1.092s] copying config/pilz_cartesian_limits.yaml -> /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/config
+[1.092s] copying config/ompl_planning.yaml -> /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/config
+[1.092s] copying config/joint_limits.yaml -> /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/config
+[1.092s] copying config/ur_moveit.rviz -> /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/config
+[1.093s] copying config/ur.urdf.xacro -> /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/config
+[1.093s] copying config/ur.srdf.xacro -> /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/config
+[1.093s] copying config/ur_macro.srdf.xacro -> /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/config
+[1.093s] copying config/ur_macro.xacro -> /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/config
+[1.093s] creating /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/config/ur10e
+[1.093s] copying config/ur10e/default_kinematics.yaml -> /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/config/ur10e
+[1.093s] copying config/ur10e/physical_parameters.yaml -> /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/config/ur10e
+[1.093s] copying config/ur10e/visual_parameters.yaml -> /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/config/ur10e
+[1.093s] copying config/ur10e/joint_limits.yaml -> /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/config/ur10e
+[1.093s] creating /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/srdf
+[1.093s] creating /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/urdf
+[1.093s] creating /root/ros_ws/install/universal_robots_ur10e/share/universal_robots_ur10e/urdf/inc
+[1.093s] creating /root/ros_ws/install/universal_robots_ur10e/share/ament_index
+[1.093s] creating /root/ros_ws/install/universal_robots_ur10e/share/ament_index/resource_index
+[1.094s] creating /root/ros_ws/install/universal_robots_ur10e/share/ament_index/resource_index/packages
+[1.094s] copying resource/universal_robots_ur10e -> /root/ros_ws/install/universal_robots_ur10e/share/ament_index/resource_index/packages
+[1.094s] running install_egg_info
+[1.118s] Copying ../../build/universal_robots_ur10e/universal_robots_ur10e.egg-info to /root/ros_ws/install/universal_robots_ur10e/lib/python3.12/site-packages/universal_robots_ur10e-0.1.0-py3.12.egg-info
+[1.119s] running install_scripts
+[1.275s] Installing scene_subscriber script to /root/ros_ws/install/universal_robots_ur10e/lib/universal_robots_ur10e
+[1.275s] writing list of installed files to '/root/ros_ws/build/universal_robots_ur10e/install.log'
+[1.296s] Invoked command in '/root/ros_ws/src/universal_robots_ur10e' returned '0': PYTHONPATH=/root/ros_ws/build/universal_robots_ur10e/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/universal_robots_ur10e/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/universal_robots_ur10e build --build-base /root/ros_ws/build/universal_robots_ur10e/build install --record /root/ros_ws/build/universal_robots_ur10e/install.log --single-version-externally-managed install_data

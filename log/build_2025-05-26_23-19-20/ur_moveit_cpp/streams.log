@@ -1,0 +1,117 @@
+[0.406s] Invoking command in '/root/ros_ws/build/ur_moveit_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_ws/src/ur_moveit_cpp -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/ur_moveit_cpp
+[0.449s] -- The C compiler identification is GNU 13.3.0
+[0.479s] -- The CXX compiler identification is GNU 13.3.0
+[0.490s] -- Detecting C compiler ABI info
+[0.544s] -- Detecting C compiler ABI info - done
+[0.550s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.550s] -- Detecting C compile features
+[0.551s] -- Detecting C compile features - done
+[0.557s] -- Detecting CXX compiler ABI info
+[0.623s] -- Detecting CXX compiler ABI info - done
+[0.632s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.632s] -- Detecting CXX compile features
+[0.632s] -- Detecting CXX compile features - done
+[0.637s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.740s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.841s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.894s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.914s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.936s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.952s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.009s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.012s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.075s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.092s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.110s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.174s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")  
+[1.177s] -- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[1.252s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[1.432s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.476s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.487s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.511s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[1.555s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.555s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.667s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[1.698s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[1.717s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[1.741s] -- Found graph_msgs: 0.2.0 (/opt/ros/jazzy/share/graph_msgs/cmake)
+[1.754s] -- Found moveit_visual_tools: 4.1.2 (/opt/ros/jazzy/share/moveit_visual_tools/cmake)
+[1.787s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.787s] -- Found OGRE
+[1.787s] --   static     : OFF
+[1.787s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.787s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.788s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.788s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.788s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[1.788s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.788s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[1.788s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.788s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.788s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.788s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.803s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[1.807s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.895s] -- Found X11: /usr/include   
+[1.895s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.956s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.956s] -- Looking for gethostbyname
+[2.018s] -- Looking for gethostbyname - found
+[2.018s] -- Looking for connect
+[2.075s] -- Looking for connect - found
+[2.075s] -- Looking for remove
+[2.132s] -- Looking for remove - found
+[2.132s] -- Looking for shmat
+[2.196s] -- Looking for shmat - found
+[2.196s] -- Looking for IceConnectionNumber in ICE
+[2.247s] -- Looking for IceConnectionNumber in ICE - found
+[2.266s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[2.466s] -- Configuring done (2.1s)
+[2.502s] -- Generating done (0.0s)
+[2.508s] -- Build files have been written to: /root/ros_ws/build/ur_moveit_cpp
+[2.525s] Invoked command in '/root/ros_ws/build/ur_moveit_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_ws/src/ur_moveit_cpp -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/ur_moveit_cpp
+[2.526s] Invoking command in '/root/ros_ws/build/ur_moveit_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_ws/build/ur_moveit_cpp -- -j28 -l28
+[2.576s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_cpp_tutorial.dir/src/moveit_cpp_tutorial.cpp.o[0m
+[6.678s] [01m[K/root/ros_ws/src/ur_moveit_cpp/src/moveit_cpp_tutorial.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[6.678s] [01m[K/root/ros_ws/src/ur_moveit_cpp/src/moveit_cpp_tutorial.cpp:54:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmoveit_controller_manager::ExecutionStatus moveit_cpp::MoveItCpp::[01;32m[Kexecute[m[K(const robot_trajectory::RobotTrajectoryPtr&, bool, const std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&)[m[K’ is deprecated: MoveItCpp::execute() no longer requires a blocking parameter [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.678s]    54 |     [01;35m[Kmoveit_cpp_ptr->execute(plan_solution.trajectory, blocking)[m[K;
+[6.678s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.678s] In file included from [01m[K/root/ros_ws/src/ur_moveit_cpp/src/moveit_cpp_tutorial.cpp:4[m[K:
+[6.678s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/moveit_cpp/moveit_cpp.hpp:165:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.678s]   165 |   [01;36m[Kexecute[m[K(const robot_trajectory::RobotTrajectoryPtr& robot_trajectory, bool blocking,
+[6.679s]       |   [01;36m[K^~~~~~~[m[K
+[6.679s] [01m[K/root/ros_ws/src/ur_moveit_cpp/src/moveit_cpp_tutorial.cpp:76:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmoveit_controller_manager::ExecutionStatus moveit_cpp::MoveItCpp::[01;32m[Kexecute[m[K(const robot_trajectory::RobotTrajectoryPtr&, bool, const std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&)[m[K’ is deprecated: MoveItCpp::execute() no longer requires a blocking parameter [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.679s]    76 |     [01;35m[Kmoveit_cpp_ptr->execute(plan_solution_2.trajectory, true)[m[K;
+[6.679s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.679s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/moveit_cpp/moveit_cpp.hpp:165:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.679s]   165 |   [01;36m[Kexecute[m[K(const robot_trajectory::RobotTrajectoryPtr& robot_trajectory, bool blocking,
+[6.679s]       |   [01;36m[K^~~~~~~[m[K
+[9.439s] [100%] [32m[1mLinking CXX executable moveit_cpp_tutorial[0m
+[9.635s] [100%] Built target moveit_cpp_tutorial
+[9.645s] Invoked command in '/root/ros_ws/build/ur_moveit_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_ws/build/ur_moveit_cpp -- -j28 -l28
+[9.645s] Invoking command in '/root/ros_ws/build/ur_moveit_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_ws/build/ur_moveit_cpp
+[9.650s] -- Install configuration: ""
+[9.650s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/lib/ur_moveit_cpp/moveit_cpp_tutorial
+[9.650s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/ur_moveit_cpp/lib/ur_moveit_cpp/moveit_cpp_tutorial" to ""
+[9.650s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/launch
+[9.651s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/launch/moveit_cpp_tutorial.launch.py
+[9.651s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/launch/moveit_cpp_tutorial.rviz
+[9.651s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/config
+[9.651s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/config/moveit_cpp.yaml
+[9.651s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ament_index/resource_index/package_run_dependencies/ur_moveit_cpp
+[9.651s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ament_index/resource_index/parent_prefix_path/ur_moveit_cpp
+[9.651s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/environment/ament_prefix_path.sh
+[9.651s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/environment/ament_prefix_path.dsv
+[9.651s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/environment/path.sh
+[9.651s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/environment/path.dsv
+[9.651s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/local_setup.bash
+[9.651s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/local_setup.sh
+[9.651s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/local_setup.zsh
+[9.651s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/local_setup.dsv
+[9.651s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/package.dsv
+[9.652s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ament_index/resource_index/packages/ur_moveit_cpp
+[9.652s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/cmake/ur_moveit_cppConfig.cmake
+[9.652s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/cmake/ur_moveit_cppConfig-version.cmake
+[9.652s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/package.xml
+[9.653s] Invoked command in '/root/ros_ws/build/ur_moveit_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_ws/build/ur_moveit_cpp

@@ -1,0 +1,27 @@
+[1.231s] Invoking command in '/root/ros_ws/build/ur_moveit_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/universal_robots_ur10e:/root/ros_ws/install/simple_moveit_app:/root/ros_ws/install/panda_moveit_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /root/ros_ws/build/ur_moveit_cpp -- -j20 -l20
+[1.686s] [100%] Built target moveit_cpp_tutorial
+[1.804s] Invoked command in '/root/ros_ws/build/ur_moveit_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/universal_robots_ur10e:/root/ros_ws/install/simple_moveit_app:/root/ros_ws/install/panda_moveit_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /root/ros_ws/build/ur_moveit_cpp -- -j20 -l20
+[1.805s] Invoking command in '/root/ros_ws/build/ur_moveit_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/universal_robots_ur10e:/root/ros_ws/install/simple_moveit_app:/root/ros_ws/install/panda_moveit_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /root/ros_ws/build/ur_moveit_cpp
+[1.871s] -- Install configuration: ""
+[1.871s] -- Up-to-date: /root/ros_ws/install/ur_moveit_cpp/lib/ur_moveit_cpp/moveit_cpp_tutorial
+[1.872s] -- Up-to-date: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/launch
+[1.872s] -- Up-to-date: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/launch/moveit_cpp_tutorial.launch.py
+[1.873s] -- Up-to-date: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/launch/moveit_cpp_tutorial.rviz
+[1.873s] -- Up-to-date: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/config
+[1.873s] -- Up-to-date: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/config/moveit_cpp.yaml
+[1.873s] -- Up-to-date: /root/ros_ws/install/ur_moveit_cpp/share/ament_index/resource_index/package_run_dependencies/ur_moveit_cpp
+[1.874s] -- Up-to-date: /root/ros_ws/install/ur_moveit_cpp/share/ament_index/resource_index/parent_prefix_path/ur_moveit_cpp
+[1.875s] -- Up-to-date: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/environment/ament_prefix_path.sh
+[1.875s] -- Up-to-date: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/environment/ament_prefix_path.dsv
+[1.875s] -- Up-to-date: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/environment/path.sh
+[1.876s] -- Up-to-date: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/environment/path.dsv
+[1.876s] -- Up-to-date: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/local_setup.bash
+[1.877s] -- Up-to-date: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/local_setup.sh
+[1.877s] -- Up-to-date: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/local_setup.zsh
+[1.878s] -- Up-to-date: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/local_setup.dsv
+[1.878s] -- Installing: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/package.dsv
+[1.879s] -- Up-to-date: /root/ros_ws/install/ur_moveit_cpp/share/ament_index/resource_index/packages/ur_moveit_cpp
+[1.879s] -- Up-to-date: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/cmake/ur_moveit_cppConfig.cmake
+[1.879s] -- Up-to-date: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/cmake/ur_moveit_cppConfig-version.cmake
+[1.879s] -- Up-to-date: /root/ros_ws/install/ur_moveit_cpp/share/ur_moveit_cpp/package.xml
+[1.892s] Invoked command in '/root/ros_ws/build/ur_moveit_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/universal_robots_ur10e:/root/ros_ws/install/simple_moveit_app:/root/ros_ws/install/panda_moveit_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /root/ros_ws/build/ur_moveit_cpp

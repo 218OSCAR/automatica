@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from zivid_interfaces/msg/HandEyeCalibrationResidual.msg
+// generated code does not contain a copyright notice
+
+
+module zivid_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Rotational residual in degrees.")
+    struct HandEyeCalibrationResidual {
+      float rotation;
+
+      @verbatim (language="comment", text=
+        "Translational residual." "\n"
+        "Note: Lengths are given in units of meter. In the Zivid driver, the units are automatically converted from the default" "\n"
+        "units of the Zivid point clouds in millimeter, to the ROS convention of meter.")
+      float translation;
+    };
+  };
+};

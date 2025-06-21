@@ -1,0 +1,6 @@
+Invoking command in '/root/ros_ws/build/rviz_marker_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_ws/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/rviz_marker_tools
+Invoked command in '/root/ros_ws/build/rviz_marker_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_ws/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/rviz_marker_tools
+Invoking command in '/root/ros_ws/build/rviz_marker_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_ws/build/rviz_marker_tools -- -j28 -l28
+Invoked command in '/root/ros_ws/build/rviz_marker_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_ws/build/rviz_marker_tools -- -j28 -l28
+Invoking command in '/root/ros_ws/build/rviz_marker_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_ws/build/rviz_marker_tools
+Invoked command in '/root/ros_ws/build/rviz_marker_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_ws/build/rviz_marker_tools

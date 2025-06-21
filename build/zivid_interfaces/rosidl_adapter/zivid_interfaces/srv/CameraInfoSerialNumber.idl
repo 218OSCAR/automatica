@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from zivid_interfaces/srv/CameraInfoSerialNumber.srv
+// generated code does not contain a copyright notice
+
+
+module zivid_interfaces {
+  module srv {
+    struct CameraInfoSerialNumber_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct CameraInfoSerialNumber_Response {
+      string serial_number;
+    };
+  };
+};

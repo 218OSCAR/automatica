@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b0957d1b8ba3036fae55.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "cable_detection_picking__py",
+					"jsonFile" : "directory-cable_detection_picking__py-c3b78eece86a34db7c37.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/ros_ws/build/cable_detection_picking/cable_detection_picking__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "cable_detection_picking",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_cable_detection_picking_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_cable_detection_picking_egg-6d9a0a44ee74b5b3dd02.json",
+					"name" : "ament_cmake_python_build_cable_detection_picking_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_cable_detection_picking::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_cable_detection_picking-6295ec5f563db013af4f.json",
+					"name" : "ament_cmake_python_copy_cable_detection_picking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cable_detection_picking::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cable_detection_picking-f7f221d6b2732ce68c44.json",
+					"name" : "cable_detection_picking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cable_detection_picking__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cable_detection_picking__cpp-ce3ae76e91678bd16201.json",
+					"name" : "cable_detection_picking__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cable_detection_picking__py::@7ad409408c6970354716",
+					"jsonFile" : "target-cable_detection_picking__py-32e13cd758c84490620a.json",
+					"name" : "cable_detection_picking__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cable_detection_picking__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cable_detection_picking__rosidl_generator_c-eb7b32a1197901cfb2de.json",
+					"name" : "cable_detection_picking__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cable_detection_picking__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cable_detection_picking__rosidl_generator_py-358dbcf7c8b7e7633815.json",
+					"name" : "cable_detection_picking__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cable_detection_picking__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cable_detection_picking__rosidl_generator_type_description-9a8b14d845d62a628238.json",
+					"name" : "cable_detection_picking__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cable_detection_picking__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cable_detection_picking__rosidl_typesupport_c-c8c7e00a75910fbd074c.json",
+					"name" : "cable_detection_picking__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cable_detection_picking__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cable_detection_picking__rosidl_typesupport_cpp-03cd688b91e113d027d9.json",
+					"name" : "cable_detection_picking__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cable_detection_picking__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cable_detection_picking__rosidl_typesupport_fastrtps_c-481287c07427d776074e.json",
+					"name" : "cable_detection_picking__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cable_detection_picking__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cable_detection_picking__rosidl_typesupport_fastrtps_cpp-13d27da8f867bc558be9.json",
+					"name" : "cable_detection_picking__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cable_detection_picking__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cable_detection_picking__rosidl_typesupport_introspection_c-90e2d55c0cc44922396c.json",
+					"name" : "cable_detection_picking__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cable_detection_picking__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cable_detection_picking__rosidl_typesupport_introspection_cpp-1cbd89d0c77a5d3dda55.json",
+					"name" : "cable_detection_picking__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cable_detection_picking_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cable_detection_picking_s__rosidl_typesupport_c-b8e718f4bca5c706d5b1.json",
+					"name" : "cable_detection_picking_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cable_detection_picking_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cable_detection_picking_s__rosidl_typesupport_fastrtps_c-ae2bdad2e9bab73c8517.json",
+					"name" : "cable_detection_picking_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cable_detection_picking_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cable_detection_picking_s__rosidl_typesupport_introspection_c-ff527fc6bc3b2e7d5c55.json",
+					"name" : "cable_detection_picking_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cable_detection_picking_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cable_detection_picking_uninstall-5a07fe830998c435ae00.json",
+					"name" : "cable_detection_picking_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8548d325c0018c56868b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros_ws/build/cable_detection_picking",
+		"source" : "/root/ros_ws/src/cable_detection_picking"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

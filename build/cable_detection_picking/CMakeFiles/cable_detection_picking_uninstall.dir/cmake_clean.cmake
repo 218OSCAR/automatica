@@ -1,0 +1,8 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/cable_detection_picking_uninstall"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/cable_detection_picking_uninstall.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

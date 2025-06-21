@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from zivid_interfaces/srv/InfieldCorrectionCapture.srv
+// generated code does not contain a copyright notice
+
+#include "zivid_interfaces/msg/DetectionResultCalibrationBoard.idl"
+
+module zivid_interfaces {
+  module srv {
+    struct InfieldCorrectionCapture_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    module InfieldCorrectionCapture_Response_Constants {
+      const uint8 STATUS_NOT_SET = 0;
+      const uint8 STATUS_OK = 1;
+      const uint8 STATUS_DETECTION_FAILED = 2;
+      const uint8 STATUS_INVALID_CAPTURE_METHOD = 3;
+      const uint8 STATUS_INVALID_ALIGNMENT = 4;
+    };
+    struct InfieldCorrectionCapture_Response {
+      boolean success;
+
+      string message;
+
+      @verbatim (language="comment", text=
+        "Get the detection status/validity as one of the above numeric status values. The above message will include a" "\n"
+        "human-readable description of the status.")
+      uint8 status;
+
+      @verbatim (language="comment", text=
+        "Number of successful infield correction captures. We recommend multiple captures with different board positions.")
+      int32 number_of_captures;
+
+      @verbatim (language="comment", text=
+        "The result of the calibration board detection.")
+      zivid_interfaces::msg::DetectionResultCalibrationBoard detection_result;
+    };
+  };
+};

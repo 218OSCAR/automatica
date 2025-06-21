@@ -1,0 +1,36 @@
+[0.125s] Invoking command in '/root/ros_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/universal_robots_ur10e:/root/ros_ws/install/simple_moveit_app:/root/ros_ws/install/panda_moveit_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /root/ros_ws/build/serial -- -j20 -l20
+[1.353s] [100%] Built target serial
+[1.369s] Invoked command in '/root/ros_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/universal_robots_ur10e:/root/ros_ws/install/simple_moveit_app:/root/ros_ws/install/panda_moveit_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /root/ros_ws/build/serial -- -j20 -l20
+[1.370s] Invoking command in '/root/ros_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/universal_robots_ur10e:/root/ros_ws/install/simple_moveit_app:/root/ros_ws/install/panda_moveit_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /root/ros_ws/build/serial
+[1.557s] -- Install configuration: ""
+[1.557s] -- Up-to-date: /root/ros_ws/install/serial/lib/libserial.a
+[1.558s] -- Up-to-date: /root/ros_ws/install/serial/include
+[1.558s] -- Up-to-date: /root/ros_ws/install/serial/include/serial
+[1.558s] -- Up-to-date: /root/ros_ws/install/serial/include/serial/impl
+[1.558s] -- Up-to-date: /root/ros_ws/install/serial/include/serial/impl/unix.h
+[1.559s] -- Up-to-date: /root/ros_ws/install/serial/include/serial/impl/win.h
+[1.559s] -- Up-to-date: /root/ros_ws/install/serial/include/serial/serial.h
+[1.559s] -- Up-to-date: /root/ros_ws/install/serial/include/serial/v8stdint.h
+[1.559s] -- Up-to-date: /root/ros_ws/install/serial/share/serial/environment/library_path.sh
+[1.559s] -- Up-to-date: /root/ros_ws/install/serial/share/serial/environment/library_path.dsv
+[1.559s] -- Up-to-date: /root/ros_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[1.560s] -- Up-to-date: /root/ros_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[1.560s] -- Up-to-date: /root/ros_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[1.560s] -- Up-to-date: /root/ros_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[1.560s] -- Up-to-date: /root/ros_ws/install/serial/share/serial/environment/path.sh
+[1.560s] -- Up-to-date: /root/ros_ws/install/serial/share/serial/environment/path.dsv
+[1.561s] -- Up-to-date: /root/ros_ws/install/serial/share/serial/local_setup.bash
+[1.561s] -- Up-to-date: /root/ros_ws/install/serial/share/serial/local_setup.sh
+[1.561s] -- Up-to-date: /root/ros_ws/install/serial/share/serial/local_setup.zsh
+[1.561s] -- Up-to-date: /root/ros_ws/install/serial/share/serial/local_setup.dsv
+[1.561s] -- Installing: /root/ros_ws/install/serial/share/serial/package.dsv
+[1.561s] -- Up-to-date: /root/ros_ws/install/serial/share/ament_index/resource_index/packages/serial
+[1.561s] -- Up-to-date: /root/ros_ws/install/serial/share/serial/cmake/export_serialExport.cmake
+[1.561s] -- Up-to-date: /root/ros_ws/install/serial/share/serial/cmake/export_serialExport-noconfig.cmake
+[1.562s] -- Up-to-date: /root/ros_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.562s] -- Up-to-date: /root/ros_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[1.562s] -- Up-to-date: /root/ros_ws/install/serial/share/serial/cmake/ament_cmake_export_targets-extras.cmake
+[1.562s] -- Up-to-date: /root/ros_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[1.562s] -- Up-to-date: /root/ros_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[1.562s] -- Up-to-date: /root/ros_ws/install/serial/share/serial/package.xml
+[1.949s] Invoked command in '/root/ros_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/universal_robots_ur10e:/root/ros_ws/install/simple_moveit_app:/root/ros_ws/install/panda_moveit_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /root/ros_ws/build/serial

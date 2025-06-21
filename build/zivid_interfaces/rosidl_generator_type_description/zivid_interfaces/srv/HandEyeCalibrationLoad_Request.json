@@ -1,0 +1,76 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "zivid_interfaces/srv/HandEyeCalibrationLoad_Request",
+      "fields": [
+        {
+          "name": "working_directory",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "calibration_objects",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "zivid_interfaces/msg/HandEyeCalibrationObjects"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "zivid_interfaces/msg/HandEyeCalibrationObjects",
+        "fields": [
+          {
+            "name": "type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "marker_ids",
+            "type": {
+              "type_id": 150,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "marker_dictionary",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "zivid_interfaces/srv/HandEyeCalibrationLoad_Request",
+      "hash_string": "RIHS01_bdb6c1da06bd1f163f29830c6949ae2c8f6d93a18b82e9f280f04aa3463799eb"
+    },
+    {
+      "type_name": "zivid_interfaces/msg/HandEyeCalibrationObjects",
+      "hash_string": "RIHS01_929fe77cf450ec5e9d74f2e575bdffb2fc33c061c344486f825e47642a8ccbc6"
+    }
+  ]
+}

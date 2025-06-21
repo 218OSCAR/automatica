@@ -1,0 +1,2 @@
+[console_scripts]
+scene_subscriber = universal_robots_ur10e.scene_subscriber:main

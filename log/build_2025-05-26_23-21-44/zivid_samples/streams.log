@@ -1,0 +1,77 @@
+[0.013s] Invoking command in '/root/ros_ws/build/zivid_samples': AMENT_PREFIX_PATH=/root/ros_ws/install/zivid_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_ws/install/zivid_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros_ws/install/zivid_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros_ws/build/zivid_samples -- -j28 -l28
+[0.044s] [  5%] [32mBuilding CXX object CMakeFiles/sample_infield_correction_cpp.dir/src/sample_infield_correction.cpp.o[0m
+[0.045s] [ 11%] [32mBuilding CXX object CMakeFiles/sample_capture_cpp.dir/src/sample_capture.cpp.o[0m
+[0.047s] [ 16%] [32mBuilding CXX object CMakeFiles/sample_hand_eye_calibration_cpp.dir/src/sample_hand_eye_calibration.cpp.o[0m
+[0.047s] [ 22%] [32mBuilding CXX object CMakeFiles/sample_capture_assistant_cpp.dir/src/sample_capture_assistant.cpp.o[0m
+[0.048s] [ 27%] [32mBuilding CXX object CMakeFiles/sample_capture_2d_cpp.dir/src/sample_capture_2d.cpp.o[0m
+[0.049s] [ 33%] [32mBuilding CXX object CMakeFiles/sample_capture_and_detect_calibration_board_cpp.dir/src/sample_capture_and_detect_calibration_board.cpp.o[0m
+[0.049s] [ 38%] [32mBuilding CXX object CMakeFiles/sample_capture_and_save_cpp.dir/src/sample_capture_and_save.cpp.o[0m
+[0.050s] [ 44%] [32mBuilding CXX object CMakeFiles/sample_capture_and_detect_markers_cpp.dir/src/sample_capture_and_detect_markers.cpp.o[0m
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/sample_capture_with_settings_from_file_cpp.dir/src/sample_capture_with_settings_from_file.cpp.o[0m
+[2.269s] [ 55%] [32m[1mLinking CXX executable sample_capture_and_save_cpp[0m
+[2.390s] [ 55%] Built target sample_capture_and_save_cpp
+[3.149s] [ 61%] [32m[1mLinking CXX executable sample_capture_and_detect_markers_cpp[0m
+[3.242s] [ 61%] Built target sample_capture_and_detect_markers_cpp
+[3.433s] [ 66%] [32m[1mLinking CXX executable sample_capture_and_detect_calibration_board_cpp[0m
+[3.546s] [ 66%] Built target sample_capture_and_detect_calibration_board_cpp
+[3.618s] [ 72%] [32m[1mLinking CXX executable sample_hand_eye_calibration_cpp[0m
+[3.870s] [ 72%] Built target sample_hand_eye_calibration_cpp
+[5.563s] [ 77%] [32m[1mLinking CXX executable sample_capture_with_settings_from_file_cpp[0m
+[5.850s] [ 83%] [32m[1mLinking CXX executable sample_infield_correction_cpp[0m
+[6.049s] [ 83%] Built target sample_infield_correction_cpp
+[6.091s] [ 83%] Built target sample_capture_with_settings_from_file_cpp
+[7.395s] [ 88%] [32m[1mLinking CXX executable sample_capture_cpp[0m
+[7.795s] [ 88%] Built target sample_capture_cpp
+[7.964s] [ 94%] [32m[1mLinking CXX executable sample_capture_2d_cpp[0m
+[8.201s] [ 94%] Built target sample_capture_2d_cpp
+[11.358s] [100%] [32m[1mLinking CXX executable sample_capture_assistant_cpp[0m
+[11.722s] [100%] Built target sample_capture_assistant_cpp
+[11.734s] Invoked command in '/root/ros_ws/build/zivid_samples' returned '0': AMENT_PREFIX_PATH=/root/ros_ws/install/zivid_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_ws/install/zivid_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros_ws/install/zivid_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros_ws/build/zivid_samples -- -j28 -l28
+[11.735s] Invoking command in '/root/ros_ws/build/zivid_samples': AMENT_PREFIX_PATH=/root/ros_ws/install/zivid_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_ws/install/zivid_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros_ws/install/zivid_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros_ws/build/zivid_samples
+[11.744s] -- Install configuration: ""
+[11.744s] -- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_cpp
+[11.747s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_cpp" to ""
+[11.748s] -- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_2d_cpp
+[11.751s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_2d_cpp" to ""
+[11.751s] -- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_save_cpp
+[11.753s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_save_cpp" to ""
+[11.753s] -- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_assistant_cpp
+[11.758s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_assistant_cpp" to ""
+[11.758s] -- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_with_settings_from_file_cpp
+[11.761s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_with_settings_from_file_cpp" to ""
+[11.763s] -- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_detect_calibration_board_cpp
+[11.763s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_detect_calibration_board_cpp" to ""
+[11.763s] -- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_detect_markers_cpp
+[11.764s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_detect_markers_cpp" to ""
+[11.764s] -- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_infield_correction_cpp
+[11.766s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_infield_correction_cpp" to ""
+[11.767s] -- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_hand_eye_calibration_cpp
+[11.769s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_hand_eye_calibration_cpp" to ""
+[11.769s] -- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture.py
+[11.769s] -- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_2d.py
+[11.769s] -- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_and_save.py
+[11.769s] -- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_assistant.py
+[11.770s] -- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_with_settings_from_file.py
+[11.770s] -- Installing: /root/ros_ws/install/zivid_samples/lib/zivid_samples/sample_capture_depth_color_pcl.py
+[11.770s] -- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/launch
+[11.770s] -- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/launch/sample.launch
+[11.771s] -- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/launch/zivid_camera_with_serial_number.launch
+[11.771s] -- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/launch/sample_with_rviz.launch
+[11.771s] -- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/settings
+[11.771s] -- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/settings/camera_settings.yml
+[11.772s] -- Installing: /root/ros_ws/install/zivid_samples/share/ament_index/resource_index/package_run_dependencies/zivid_samples
+[11.772s] -- Installing: /root/ros_ws/install/zivid_samples/share/ament_index/resource_index/parent_prefix_path/zivid_samples
+[11.772s] -- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/environment/ament_prefix_path.sh
+[11.772s] -- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/environment/ament_prefix_path.dsv
+[11.773s] -- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/environment/path.sh
+[11.773s] -- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/environment/path.dsv
+[11.773s] -- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/local_setup.bash
+[11.773s] -- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/local_setup.sh
+[11.774s] -- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/local_setup.zsh
+[11.774s] -- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/local_setup.dsv
+[11.774s] -- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/package.dsv
+[11.774s] -- Installing: /root/ros_ws/install/zivid_samples/share/ament_index/resource_index/packages/zivid_samples
+[11.775s] -- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/cmake/zivid_samplesConfig.cmake
+[11.775s] -- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/cmake/zivid_samplesConfig-version.cmake
+[11.775s] -- Installing: /root/ros_ws/install/zivid_samples/share/zivid_samples/package.xml
+[11.780s] Invoked command in '/root/ros_ws/build/zivid_samples' returned '0': AMENT_PREFIX_PATH=/root/ros_ws/install/zivid_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_ws/install/zivid_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros_ws/install/zivid_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros_ws/build/zivid_samples

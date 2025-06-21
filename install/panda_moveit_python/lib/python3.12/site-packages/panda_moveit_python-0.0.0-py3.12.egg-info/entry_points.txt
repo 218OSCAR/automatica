@@ -1,0 +1,2 @@
+[console_scripts]
+motion_planning_python_api_tutorial = panda_moveit_python.motion_planning_python_api_tutorial:main

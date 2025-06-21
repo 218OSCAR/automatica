@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from zivid_interfaces/msg/FixedPlacementOfFiducialMarker.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module zivid_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "The ID of the fiducial marker to specify a position for.")
+    struct FixedPlacementOfFiducialMarker {
+      int32 marker_id;
+
+      @verbatim (language="comment", text=
+        "The position of the fiducial marker, specified at the center of the marker." "\n"
+        "" "\n"
+        "For eye-in-hand calibration, positions should be given in the robot's base frame. For eye-to-hand calibration," "\n"
+        "positions should be given in the robot's end-effector frame." "\n"
+        "" "\n"
+        "Note: Lengths should be given in units of meter. In the Zivid driver, this is converted internally to match the" "\n"
+        "default units of Zivid point clouds which are given in millimeter.")
+      geometry_msgs::msg::Point position;
+    };
+  };
+};

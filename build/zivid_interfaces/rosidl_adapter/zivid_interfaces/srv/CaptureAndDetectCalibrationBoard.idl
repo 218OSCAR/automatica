@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from zivid_interfaces/srv/CaptureAndDetectCalibrationBoard.srv
+// generated code does not contain a copyright notice
+
+#include "zivid_interfaces/msg/DetectionResultCalibrationBoard.idl"
+
+module zivid_interfaces {
+  module srv {
+    struct CaptureAndDetectCalibrationBoard_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct CaptureAndDetectCalibrationBoard_Response {
+      boolean success;
+
+      string message;
+
+      @verbatim (language="comment", text=
+        "The result of the calibration board detection.")
+      zivid_interfaces::msg::DetectionResultCalibrationBoard detection_result;
+    };
+  };
+};

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: universal-robots-ur10e
+Version: 0.1.0
+Summary: A custom package for launching a UR10e robot in RViz including MoveIt2. Connects to the real robot and can control it via the external_control URCap. Also subscribes to the /planning_scene topic for individual scenes.
+Maintainer: florian
+Maintainer-email: florian.pachler@tum.de
+License: Apache License 2.0

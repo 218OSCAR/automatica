@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "zivid_interfaces/srv/CameraInfoSerialNumber_Request",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "zivid_interfaces/srv/CameraInfoSerialNumber_Request",
+      "hash_string": "RIHS01_11904c8d48a6852054600a5be5d2f605e9e9ac5068c713ff8dec95af796c0114"
+    }
+  ]
+}

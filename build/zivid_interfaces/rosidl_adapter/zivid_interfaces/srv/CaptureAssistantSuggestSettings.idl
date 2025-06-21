@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from zivid_interfaces/srv/CaptureAssistantSuggestSettings.srv
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+
+module zivid_interfaces {
+  module srv {
+    module CaptureAssistantSuggestSettings_Request_Constants {
+      const uint8 AMBIENT_LIGHT_FREQUENCY_NONE = 0;
+      const uint8 AMBIENT_LIGHT_FREQUENCY_50HZ = 1;
+      const uint8 AMBIENT_LIGHT_FREQUENCY_60HZ = 2;
+    };
+    struct CaptureAssistantSuggestSettings_Request {
+      builtin_interfaces::msg::Duration max_capture_time;
+
+      uint8 ambient_light_frequency;
+    };
+    struct CaptureAssistantSuggestSettings_Response {
+      string suggested_settings;
+
+      boolean success;
+
+      string message;
+    };
+  };
+};

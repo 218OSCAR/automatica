@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from zivid_interfaces/srv/InfieldCorrectionRead.srv
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module zivid_interfaces {
+  module srv {
+    struct InfieldCorrectionRead_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct InfieldCorrectionRead_Response {
+      boolean success;
+
+      string message;
+
+      @verbatim (language="comment", text=
+        "True if the camera has a stored correction.")
+      boolean has_camera_correction;
+
+      @verbatim (language="comment", text=
+        "The calendar time of the current camera correction, or zero if no correction is stored on the camera.")
+      builtin_interfaces::msg::Time camera_correction_timestamp;
+    };
+  };
+};

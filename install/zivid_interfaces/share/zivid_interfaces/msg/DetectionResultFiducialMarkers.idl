@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from zivid_interfaces/msg/DetectionResultFiducialMarkers.msg
+// generated code does not contain a copyright notice
+
+#include "zivid_interfaces/msg/MarkerShape.idl"
+
+module zivid_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "The detected fiducial markers." "\n"
+      "Only markers belonging to the dictionary that was used at detection are reported. Markers are filtered to only include" "\n"
+      "the ones with allowed ids, specified at detection. Markers can be detected multiple times if they are present on the" "\n"
+      "scene multiple times.")
+    struct DetectionResultFiducialMarkers {
+      sequence<zivid_interfaces::msg::MarkerShape> detected_markers;
+
+      @verbatim (language="comment", text=
+        "The allowed marker ids this detection result was made with.")
+      sequence<int32> allowed_marker_ids;
+    };
+  };
+};

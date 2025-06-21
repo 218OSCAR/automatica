@@ -1,0 +1,4 @@
+source;share/cable_detection_picking/local_setup.bash
+source;share/cable_detection_picking/local_setup.dsv
+source;share/cable_detection_picking/local_setup.sh
+source;share/cable_detection_picking/local_setup.zsh

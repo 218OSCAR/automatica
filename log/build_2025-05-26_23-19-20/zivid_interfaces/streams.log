@@ -1,0 +1,961 @@
+[0.025s] Invoking command in '/root/ros_ws/build/zivid_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_ws/src/zivid-ros/zivid_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/zivid_interfaces
+[0.419s] -- The C compiler identification is GNU 13.3.0
+[0.419s] -- The CXX compiler identification is GNU 13.3.0
+[0.419s] -- Detecting C compiler ABI info
+[0.419s] -- Detecting C compiler ABI info - done
+[0.419s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.419s] -- Detecting C compile features
+[0.419s] -- Detecting C compile features - done
+[0.420s] -- Detecting CXX compiler ABI info
+[0.420s] -- Detecting CXX compiler ABI info - done
+[0.420s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.420s] -- Detecting CXX compile features
+[0.420s] -- Detecting CXX compile features - done
+[0.420s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.420s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.467s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.519s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.539s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.561s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.583s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.598s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.613s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.616s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.106s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.684s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.919s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.924s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.013s] -- Found PythonExtra: /usr/bin/python3  
+[2.369s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.409s] -- Configuring done (2.4s)
+[2.474s] -- Generating done (0.1s)
+[2.484s] -- Build files have been written to: /root/ros_ws/build/zivid_interfaces
+[2.489s] Invoked command in '/root/ros_ws/build/zivid_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_ws/src/zivid-ros/zivid_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/zivid_interfaces
+[2.490s] Invoking command in '/root/ros_ws/build/zivid_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_ws/build/zivid_interfaces -- -j28 -l28
+[2.535s] [  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.535s] [  0%] Built target ament_cmake_python_copy_zivid_interfaces
+[2.667s] running egg_info
+[2.667s] creating zivid_interfaces.egg-info
+[2.679s] writing zivid_interfaces.egg-info/PKG-INFO
+[2.679s] writing dependency_links to zivid_interfaces.egg-info/dependency_links.txt
+[2.679s] writing top-level names to zivid_interfaces.egg-info/top_level.txt
+[2.679s] writing manifest file 'zivid_interfaces.egg-info/SOURCES.txt'
+[2.713s] reading manifest file 'zivid_interfaces.egg-info/SOURCES.txt'
+[2.714s] writing manifest file 'zivid_interfaces.egg-info/SOURCES.txt'
+[2.731s] [  0%] Built target ament_cmake_python_build_zivid_interfaces_egg
+[3.300s] [  0%] Built target zivid_interfaces__rosidl_generator_type_description
+[3.308s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.316s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.731s] [  1%] Built target zivid_interfaces__cpp
+[5.817s] [  1%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/detection_result_calibration_board__description.c.o[0m
+[5.825s] [  2%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/detection_result_calibration_board__functions.c.o[0m
+[5.825s] [  2%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/detection_result_calibration_board__type_support.c.o[0m
+[5.830s] [  3%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/detection_result_fiducial_markers__functions.c.o[0m
+[5.830s] [  3%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/detection_result_fiducial_markers__description.c.o[0m
+[5.833s] [  4%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__description.c.o[0m
+[5.834s] [  4%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/detection_result_fiducial_markers__type_support.c.o[0m
+[5.838s] [  5%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__description.c.o[0m
+[5.838s] [  5%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__type_support.c.o[0m
+[5.838s] [  5%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__functions.c.o[0m
+[5.847s] [  5%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__functions.c.o[0m
+[5.860s] [  5%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__description.c.o[0m
+[5.860s] [  6%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__type_support.c.o[0m
+[5.869s] [  6%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__functions.c.o[0m
+[5.869s] [  6%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/hand_eye_calibration_objects__description.c.o[0m
+[5.872s] [  7%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/hand_eye_calibration_objects__functions.c.o[0m
+[5.873s] [  7%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/hand_eye_calibration_objects__type_support.c.o[0m
+[5.874s] [  8%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/marker_shape__description.c.o[0m
+[5.875s] [  9%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/hand_eye_calibration_residual__description.c.o[0m
+[5.875s] [ 10%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__type_support.c.o[0m
+[5.875s] [ 10%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/hand_eye_calibration_residual__type_support.c.o[0m
+[5.879s] [ 10%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/hand_eye_calibration_residual__functions.c.o[0m
+[5.879s] [ 10%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/marker_shape__functions.c.o[0m
+[5.884s] [ 11%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/capture_and_detect_markers__functions.c.o[0m
+[5.884s] [ 11%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__functions.c.o[0m
+[5.884s] [ 11%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/capture_and_detect_markers__description.c.o[0m
+[5.886s] [ 12%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__type_support.c.o[0m
+[5.886s] [ 13%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/capture_and_save__functions.c.o[0m
+[5.887s] [ 13%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/capture_and_detect_markers__type_support.c.o[0m
+[5.889s] [ 13%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__description.c.o[0m
+[5.889s] [ 13%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/capture_and_save__type_support.c.o[0m
+[5.890s] [ 13%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/capture_and_save__description.c.o[0m
+[5.893s] [ 14%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__description.c.o[0m
+[5.908s] [ 15%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/msg/detail/marker_shape__type_support.c.o[0m
+[5.927s] [ 16%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/camera_info_model_name__description.c.o[0m
+[5.932s] [ 16%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__functions.c.o[0m
+[5.932s] [ 16%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/camera_info_serial_number__description.c.o[0m
+[5.932s] [ 16%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__type_support.c.o[0m
+[5.932s] [ 17%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/camera_info_serial_number__functions.c.o[0m
+[5.934s] [ 18%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/camera_info_model_name__type_support.c.o[0m
+[5.934s] [ 18%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/camera_info_model_name__functions.c.o[0m
+[5.935s] [ 18%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/camera_info_serial_number__type_support.c.o[0m
+[5.939s] [ 19%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__functions.c.o[0m
+[5.941s] [ 19%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__description.c.o[0m
+[5.941s] [ 19%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__type_support.c.o[0m
+[5.954s] [ 20%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/hand_eye_calibration_capture__description.c.o[0m
+[5.964s] [ 20%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/hand_eye_calibration_capture__functions.c.o[0m
+[5.968s] [ 21%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/hand_eye_calibration_load__description.c.o[0m
+[5.970s] [ 21%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/hand_eye_calibration_capture__type_support.c.o[0m
+[5.971s] [ 22%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/hand_eye_calibration_load__type_support.c.o[0m
+[5.972s] [ 22%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/hand_eye_calibration_start__description.c.o[0m
+[5.973s] [ 22%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/hand_eye_calibration_load__functions.c.o[0m
+[5.974s] [ 22%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/hand_eye_calibration_start__functions.c.o[0m
+[5.977s] [ 23%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/hand_eye_calibration_start__type_support.c.o[0m
+[5.987s] [ 23%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/infield_correction_capture__description.c.o[0m
+[5.987s] [ 23%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/infield_correction_capture__type_support.c.o[0m
+[5.992s] [ 24%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/infield_correction_compute__description.c.o[0m
+[5.995s] [ 25%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/infield_correction_capture__functions.c.o[0m
+[5.995s] [ 25%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/infield_correction_compute__functions.c.o[0m
+[5.999s] [ 25%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/infield_correction_compute__type_support.c.o[0m
+[6.014s] [ 26%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/infield_correction_read__description.c.o[0m
+[6.016s] [ 26%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/is_connected__functions.c.o[0m
+[6.018s] [ 26%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/infield_correction_read__functions.c.o[0m
+[6.018s] [ 26%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/is_connected__description.c.o[0m
+[6.020s] [ 27%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/infield_correction_read__type_support.c.o[0m
+[6.022s] [ 28%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/zivid_interfaces/srv/detail/is_connected__type_support.c.o[0m
+[6.077s] [ 28%] [32m[1mLinking C shared library libzivid_interfaces__rosidl_generator_c.so[0m
+[6.116s] [ 28%] Built target zivid_interfaces__rosidl_generator_c
+[6.124s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.125s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.125s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.126s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.126s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.126s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.013s] [ 30%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__type_support.c.o[0m
+[7.013s] [ 31%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/msg/detail/hand_eye_calibration_objects__type_support.c.o[0m
+[7.013s] [ 31%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/msg/detail/hand_eye_calibration_residual__type_support.c.o[0m
+[7.013s] [ 31%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/msg/detail/marker_shape__type_support.c.o[0m
+[7.014s] [ 31%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/msg/detail/detection_result_calibration_board__type_support.c.o[0m
+[7.014s] [ 32%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/srv/detail/capture_and_detect_markers__type_support.c.o[0m
+[7.015s] [ 32%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/srv/detail/camera_info_model_name__type_support.c.o[0m
+[7.015s] [ 32%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__type_support.c.o[0m
+[7.015s] [ 32%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/srv/detail/hand_eye_calibration_start__type_support.c.o[0m
+[7.015s] [ 32%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__type_support.c.o[0m
+[7.016s] [ 34%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/msg/detail/detection_result_fiducial_markers__type_support.c.o[0m
+[7.016s] [ 35%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__type_support.c.o[0m
+[7.016s] [ 35%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__type_support.c.o[0m
+[7.017s] [ 33%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__type_support.c.o[0m
+[7.017s] [ 37%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/srv/detail/camera_info_serial_number__type_support.c.o[0m
+[7.021s] [ 37%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/srv/detail/hand_eye_calibration_load__type_support.c.o[0m
+[7.021s] [ 38%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/srv/detail/hand_eye_calibration_capture__type_support.c.o[0m
+[7.021s] [ 39%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/srv/detail/is_connected__type_support.c.o[0m
+[7.021s] [ 39%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/srv/detail/infield_correction_read__type_support.c.o[0m
+[7.021s] [ 37%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/srv/detail/capture_and_save__type_support.c.o[0m
+[7.021s] [ 37%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/srv/detail/infield_correction_compute__type_support.c.o[0m
+[7.025s] [ 38%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zivid_interfaces/srv/detail/infield_correction_capture__type_support.c.o[0m
+[7.081s] [ 39%] [32m[1mLinking C shared library libzivid_interfaces__rosidl_typesupport_introspection_c.so[0m
+[7.102s] [ 39%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/msg/detail/hand_eye_calibration_residual__type_support.cpp.o[0m
+[7.102s] [ 40%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/srv/detail/capture_and_detect_markers__type_support.cpp.o[0m
+[7.102s] [ 40%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/srv/detail/camera_info_model_name__type_support.cpp.o[0m
+[7.102s] [ 40%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/srv/detail/hand_eye_calibration_capture__type_support.cpp.o[0m
+[7.102s] [ 40%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/srv/detail/camera_info_serial_number__type_support.cpp.o[0m
+[7.102s] [ 41%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__type_support.cpp.o[0m
+[7.102s] [ 41%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/msg/detail/detection_result_fiducial_markers__type_support.cpp.o[0m
+[7.103s] [ 42%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/srv/detail/hand_eye_calibration_load__type_support.cpp.o[0m
+[7.103s] [ 42%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/msg/detail/hand_eye_calibration_objects__type_support.cpp.o[0m
+[7.103s] [ 42%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/srv/detail/hand_eye_calibration_start__type_support.cpp.o[0m
+[7.103s] [ 43%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__type_support.cpp.o[0m
+[7.103s] [ 43%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/srv/detail/infield_correction_capture__type_support.cpp.o[0m
+[7.103s] [ 43%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/srv/detail/capture_and_save__type_support.cpp.o[0m
+[7.106s] [ 44%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__type_support.cpp.o[0m
+[7.106s] [ 45%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__type_support.cpp.o[0m
+[7.107s] [ 45%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/msg/detail/detection_result_calibration_board__type_support.cpp.o[0m
+[7.107s] [ 48%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/srv/detail/infield_correction_compute__type_support.cpp.o[0m
+[7.108s] [ 45%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/msg/detail/marker_shape__type_support.cpp.o[0m
+[7.108s] [ 48%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/srv/detail/is_connected__type_support.cpp.o[0m
+[7.108s] [ 48%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__type_support.cpp.o[0m
+[7.109s] [ 48%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/srv/detail/infield_correction_read__type_support.cpp.o[0m
+[7.109s] [ 45%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__type_support.cpp.o[0m
+[7.115s] [ 48%] Built target zivid_interfaces__rosidl_typesupport_introspection_c
+[7.382s] [ 49%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/msg/detection_result_calibration_board__type_support.cpp.o[0m
+[7.383s] [ 49%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/msg/detection_result_fiducial_markers__type_support.cpp.o[0m
+[7.388s] [ 50%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/msg/fixed_placement_of_calibration_board__type_support.cpp.o[0m
+[7.391s] [ 50%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/msg/fixed_placement_of_calibration_objects__type_support.cpp.o[0m
+[7.395s] [ 51%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/msg/hand_eye_calibration_objects__type_support.cpp.o[0m
+[7.400s] [ 51%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/msg/fixed_placement_of_fiducial_marker__type_support.cpp.o[0m
+[7.418s] [ 51%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/msg/hand_eye_calibration_residual__type_support.cpp.o[0m
+[7.427s] [ 52%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/msg/marker_shape__type_support.cpp.o[0m
+[7.436s] [ 53%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/msg/detection_result_calibration_board__type_support.cpp.o[0m
+[7.441s] [ 53%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/msg/detection_result_fiducial_markers__type_support.cpp.o[0m
+[7.441s] [ 54%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/msg/fixed_placement_of_calibration_board__type_support.cpp.o[0m
+[7.452s] [ 54%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/srv/capture_and_detect_calibration_board__type_support.cpp.o[0m
+[7.455s] [ 54%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/msg/fixed_placement_of_calibration_objects__type_support.cpp.o[0m
+[7.461s] [ 54%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/srv/capture_and_save__type_support.cpp.o[0m
+[7.463s] [ 55%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/srv/capture_and_detect_markers__type_support.cpp.o[0m
+[7.465s] [ 55%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/msg/fixed_placement_of_fiducial_marker__type_support.cpp.o[0m
+[7.471s] [ 55%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/srv/capture_assistant_suggest_settings__type_support.cpp.o[0m
+[7.472s] [ 55%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/msg/hand_eye_calibration_residual__type_support.cpp.o[0m
+[7.474s] [ 56%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/msg/hand_eye_calibration_objects__type_support.cpp.o[0m
+[7.498s] [ 57%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/msg/marker_shape__type_support.cpp.o[0m
+[7.507s] [ 57%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/srv/capture_and_detect_calibration_board__type_support.cpp.o[0m
+[7.514s] [ 58%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/srv/camera_info_model_name__type_support.cpp.o[0m
+[7.517s] [ 58%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/srv/capture_and_detect_markers__type_support.cpp.o[0m
+[7.519s] [ 59%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/srv/capture_and_save__type_support.cpp.o[0m
+[7.521s] [ 59%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/srv/capture_assistant_suggest_settings__type_support.cpp.o[0m
+[7.523s] [ 60%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/srv/camera_info_model_name__type_support.cpp.o[0m
+[7.545s] [ 60%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/srv/camera_info_serial_number__type_support.cpp.o[0m
+[7.549s] [ 60%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/srv/camera_info_serial_number__type_support.cpp.o[0m
+[7.556s] [ 61%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/srv/hand_eye_calibration_capture__type_support.cpp.o[0m
+[7.556s] [ 61%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/srv/hand_eye_calibration_calibrate__type_support.cpp.o[0m
+[7.559s] [ 62%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/srv/hand_eye_calibration_calibrate__type_support.cpp.o[0m
+[7.559s] [ 62%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/srv/hand_eye_calibration_load__type_support.cpp.o[0m
+[7.579s] [ 62%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/srv/hand_eye_calibration_capture__type_support.cpp.o[0m
+[7.591s] [ 63%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/srv/hand_eye_calibration_start__type_support.cpp.o[0m
+[7.601s] [ 63%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/srv/infield_correction_capture__type_support.cpp.o[0m
+[7.619s] [ 63%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/srv/infield_correction_compute__type_support.cpp.o[0m
+[7.627s] [ 64%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/srv/infield_correction_read__type_support.cpp.o[0m
+[7.641s] [ 64%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/srv/hand_eye_calibration_load__type_support.cpp.o[0m
+[7.648s] [ 65%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/srv/hand_eye_calibration_start__type_support.cpp.o[0m
+[7.672s] [ 65%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zivid_interfaces/srv/is_connected__type_support.cpp.o[0m
+[7.682s] [ 66%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/srv/infield_correction_compute__type_support.cpp.o[0m
+[7.684s] [ 66%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/srv/infield_correction_capture__type_support.cpp.o[0m
+[7.692s] [ 66%] [32m[1mLinking CXX shared library libzivid_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.706s] [ 66%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/srv/infield_correction_read__type_support.cpp.o[0m
+[7.710s] [ 66%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/zivid_interfaces/srv/is_connected__type_support.cpp.o[0m
+[7.782s] [ 67%] [32m[1mLinking CXX shared library libzivid_interfaces__rosidl_typesupport_c.so[0m
+[7.816s] [ 68%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/msg/detail/dds_fastrtps/detection_result_fiducial_markers__type_support.cpp.o[0m
+[7.819s] [ 68%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/msg/detail/dds_fastrtps/detection_result_calibration_board__type_support.cpp.o[0m
+[7.824s] [ 69%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/msg/detail/dds_fastrtps/fixed_placement_of_calibration_objects__type_support.cpp.o[0m
+[7.828s] [ 69%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/msg/detail/dds_fastrtps/fixed_placement_of_calibration_board__type_support.cpp.o[0m
+[7.830s] [ 69%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/msg/detail/dds_fastrtps/fixed_placement_of_fiducial_marker__type_support.cpp.o[0m
+[7.838s] [ 69%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/msg/detail/dds_fastrtps/hand_eye_calibration_objects__type_support.cpp.o[0m
+[7.849s] [ 69%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/msg/detail/dds_fastrtps/marker_shape__type_support.cpp.o[0m
+[7.849s] [ 70%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/srv/detail/dds_fastrtps/capture_and_detect_calibration_board__type_support.cpp.o[0m
+[7.859s] [ 70%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/srv/detail/dds_fastrtps/capture_and_detect_markers__type_support.cpp.o[0m
+[7.859s] [ 70%] Built target zivid_interfaces__rosidl_typesupport_c
+[7.860s] [ 70%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/srv/detail/dds_fastrtps/capture_and_save__type_support.cpp.o[0m
+[7.860s] [ 71%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/msg/detail/dds_fastrtps/hand_eye_calibration_residual__type_support.cpp.o[0m
+[7.872s] [ 72%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/msg/detail/detection_result_calibration_board__type_support_c.cpp.o[0m
+[7.881s] [ 72%] Built target zivid_interfaces__rosidl_typesupport_introspection_cpp
+[7.893s] [ 72%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/msg/detail/detection_result_fiducial_markers__type_support_c.cpp.o[0m
+[7.908s] [ 73%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/srv/detail/dds_fastrtps/capture_assistant_suggest_settings__type_support.cpp.o[0m
+[7.912s] [ 73%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/srv/detail/dds_fastrtps/camera_info_model_name__type_support.cpp.o[0m
+[7.999s] [ 74%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/srv/detail/dds_fastrtps/camera_info_serial_number__type_support.cpp.o[0m
+[8.002s] [ 74%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/srv/detail/dds_fastrtps/hand_eye_calibration_calibrate__type_support.cpp.o[0m
+[8.035s] [ 75%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/srv/detail/dds_fastrtps/hand_eye_calibration_capture__type_support.cpp.o[0m
+[8.047s] [ 76%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__type_support_c.cpp.o[0m
+[8.049s] [ 76%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__type_support_c.cpp.o[0m
+[8.062s] [ 76%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/srv/detail/dds_fastrtps/hand_eye_calibration_load__type_support.cpp.o[0m
+[8.068s] [ 76%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__type_support_c.cpp.o[0m
+[8.068s] [ 76%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/srv/detail/dds_fastrtps/hand_eye_calibration_start__type_support.cpp.o[0m
+[8.092s] [ 77%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/srv/detail/dds_fastrtps/infield_correction_capture__type_support.cpp.o[0m
+[8.099s] [ 78%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/msg/detail/hand_eye_calibration_objects__type_support_c.cpp.o[0m
+[8.128s] [ 79%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/srv/detail/dds_fastrtps/infield_correction_compute__type_support.cpp.o[0m
+[8.128s] [ 79%] [32m[1mLinking CXX shared library libzivid_interfaces__rosidl_typesupport_cpp.so[0m
+[8.130s] [ 80%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/srv/detail/dds_fastrtps/infield_correction_read__type_support.cpp.o[0m
+[8.250s] [ 80%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/msg/detail/hand_eye_calibration_residual__type_support_c.cpp.o[0m
+[8.266s] [ 80%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/msg/detail/marker_shape__type_support_c.cpp.o[0m
+[8.304s] [ 81%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__type_support_c.cpp.o[0m
+[8.315s] [ 81%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zivid_interfaces/srv/detail/dds_fastrtps/is_connected__type_support.cpp.o[0m
+[8.321s] [ 81%] Built target zivid_interfaces__rosidl_typesupport_cpp
+[8.327s] [ 81%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/srv/detail/capture_and_detect_markers__type_support_c.cpp.o[0m
+[8.343s] [ 82%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/srv/detail/capture_and_save__type_support_c.cpp.o[0m
+[8.347s] [ 82%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__type_support_c.cpp.o[0m
+[8.366s] [ 82%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/srv/detail/camera_info_model_name__type_support_c.cpp.o[0m
+[8.371s] [ 83%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/srv/detail/camera_info_serial_number__type_support_c.cpp.o[0m
+[8.373s] [ 83%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__type_support_c.cpp.o[0m
+[8.376s] [ 84%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/srv/detail/hand_eye_calibration_capture__type_support_c.cpp.o[0m
+[8.473s] [ 84%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/srv/detail/hand_eye_calibration_load__type_support_c.cpp.o[0m
+[8.476s] [ 84%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/srv/detail/hand_eye_calibration_start__type_support_c.cpp.o[0m
+[8.501s] [ 85%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/srv/detail/infield_correction_capture__type_support_c.cpp.o[0m
+[8.518s] [ 85%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/srv/detail/infield_correction_compute__type_support_c.cpp.o[0m
+[8.529s] [ 86%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/srv/detail/infield_correction_read__type_support_c.cpp.o[0m
+[8.553s] [ 86%] [32mBuilding CXX object CMakeFiles/zivid_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zivid_interfaces/srv/detail/is_connected__type_support_c.cpp.o[0m
+[8.813s] [ 86%] [32m[1mLinking CXX shared library libzivid_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.905s] [ 86%] Built target zivid_interfaces__rosidl_typesupport_fastrtps_cpp
+[8.950s] [ 87%] [32m[1mLinking CXX shared library libzivid_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.004s] [ 87%] Built target zivid_interfaces__rosidl_typesupport_fastrtps_c
+[9.019s] [ 87%] Built target zivid_interfaces
+[9.037s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.872s] [ 87%] Built target zivid_interfaces__py
+[10.891s] [ 88%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/srv/_capture_and_detect_calibration_board_s.c.o[0m
+[10.891s] [ 88%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/srv/_camera_info_serial_number_s.c.o[0m
+[10.892s] [ 88%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/srv/_capture_assistant_suggest_settings_s.c.o[0m
+[10.892s] [ 88%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/srv/_capture_and_detect_markers_s.c.o[0m
+[10.892s] [ 88%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/srv/_infield_correction_compute_s.c.o[0m
+[10.892s] [ 89%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/msg/_fixed_placement_of_calibration_objects_s.c.o[0m
+[10.893s] [ 89%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/msg/_marker_shape_s.c.o[0m
+[10.893s] [ 90%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/srv/_hand_eye_calibration_start_s.c.o[0m
+[10.894s] [ 92%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/srv/_hand_eye_calibration_capture_s.c.o[0m
+[10.894s] [ 92%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/srv/_infield_correction_read_s.c.o[0m
+[10.894s] [ 92%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/srv/_hand_eye_calibration_load_s.c.o[0m
+[10.896s] [ 92%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/msg/_hand_eye_calibration_residual_s.c.o[0m
+[10.896s] [ 92%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/msg/_fixed_placement_of_calibration_board_s.c.o[0m
+[10.896s] [ 93%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/msg/_detection_result_calibration_board_s.c.o[0m
+[10.896s] [ 93%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/msg/_detection_result_fiducial_markers_s.c.o[0m
+[10.897s] [ 94%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/msg/_fixed_placement_of_fiducial_marker_s.c.o[0m
+[10.897s] [ 94%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/msg/_hand_eye_calibration_objects_s.c.o[0m
+[10.897s] [ 94%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/srv/_is_connected_s.c.o[0m
+[10.897s] [ 95%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/srv/_camera_info_model_name_s.c.o[0m
+[10.897s] [ 96%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/srv/_capture_and_save_s.c.o[0m
+[10.898s] [ 96%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/srv/_infield_correction_capture_s.c.o[0m
+[10.898s] [ 96%] [32mBuilding C object CMakeFiles/zivid_interfaces__rosidl_generator_py.dir/rosidl_generator_py/zivid_interfaces/srv/_hand_eye_calibration_calibrate_s.c.o[0m
+[11.060s] [ 97%] [32m[1mLinking C shared library libzivid_interfaces__rosidl_generator_py.so[0m
+[11.092s] [ 97%] Built target zivid_interfaces__rosidl_generator_py
+[11.107s] [ 97%] [32mBuilding C object CMakeFiles/zivid_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/zivid_interfaces/_zivid_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[11.107s] [ 97%] [32mBuilding C object CMakeFiles/zivid_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/zivid_interfaces/_zivid_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.107s] [ 97%] [32mBuilding C object CMakeFiles/zivid_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/zivid_interfaces/_zivid_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.225s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/zivid_interfaces/zivid_interfaces_s__rosidl_typesupport_c.so[0m
+[11.230s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/zivid_interfaces/zivid_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[11.231s] [100%] [32m[1mLinking C shared module rosidl_generator_py/zivid_interfaces/zivid_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[11.247s] [100%] Built target zivid_interfaces_s__rosidl_typesupport_c
+[11.251s] [100%] Built target zivid_interfaces_s__rosidl_typesupport_introspection_c
+[11.255s] [100%] Built target zivid_interfaces_s__rosidl_typesupport_fastrtps_c
+[11.265s] Invoked command in '/root/ros_ws/build/zivid_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_ws/build/zivid_interfaces -- -j28 -l28
+[11.265s] Invoking command in '/root/ros_ws/build/zivid_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_ws/build/zivid_interfaces
+[11.270s] -- Install configuration: ""
+[11.270s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/ament_index/resource_index/rosidl_interfaces/zivid_interfaces
+[11.270s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/DetectionResultCalibrationBoard.json
+[11.270s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/DetectionResultFiducialMarkers.json
+[11.270s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/FixedPlacementOfCalibrationBoard.json
+[11.270s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/FixedPlacementOfCalibrationObjects.json
+[11.270s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/FixedPlacementOfFiducialMarker.json
+[11.271s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/HandEyeCalibrationObjects.json
+[11.271s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/HandEyeCalibrationResidual.json
+[11.271s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/MarkerShape.json
+[11.271s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/CaptureAndDetectCalibrationBoard.json
+[11.271s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/CaptureAndDetectMarkers.json
+[11.271s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/CaptureAndSave.json
+[11.271s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/CaptureAssistantSuggestSettings.json
+[11.271s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/CameraInfoModelName.json
+[11.271s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/CameraInfoSerialNumber.json
+[11.271s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/HandEyeCalibrationCalibrate.json
+[11.271s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/HandEyeCalibrationCapture.json
+[11.272s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/HandEyeCalibrationLoad.json
+[11.272s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/HandEyeCalibrationStart.json
+[11.272s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/InfieldCorrectionCapture.json
+[11.272s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/InfieldCorrectionCompute.json
+[11.272s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/InfieldCorrectionRead.json
+[11.272s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/IsConnected.json
+[11.272s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces
+[11.272s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv
+[11.272s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/hand_eye_calibration_start.h
+[11.272s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/infield_correction_read.h
+[11.272s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/is_connected.h
+[11.272s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/capture_and_save.h
+[11.272s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/camera_info_model_name.h
+[11.272s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/camera_info_serial_number.h
+[11.273s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/hand_eye_calibration_capture.h
+[11.273s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/capture_and_detect_calibration_board.h
+[11.273s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/capture_and_detect_markers.h
+[11.273s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/hand_eye_calibration_calibrate.h
+[11.273s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/hand_eye_calibration_load.h
+[11.273s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/infield_correction_compute.h
+[11.273s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/capture_assistant_suggest_settings.h
+[11.273s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail
+[11.273s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_read__type_support.h
+[11.273s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__type_support.h
+[11.273s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_markers__functions.c
+[11.273s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_load__functions.c
+[11.273s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_markers__type_support.c
+[11.273s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_compute__description.c
+[11.274s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__functions.h
+[11.274s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__type_support.c
+[11.274s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_model_name__functions.h
+[11.274s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__description.c
+[11.274s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_markers__type_support.h
+[11.274s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_model_name__type_support.c
+[11.274s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__functions.c
+[11.274s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_model_name__functions.c
+[11.274s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__struct.h
+[11.274s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__struct.h
+[11.274s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/is_connected__functions.h
+[11.274s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_start__type_support.h
+[11.274s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_start__description.c
+[11.275s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_model_name__struct.h
+[11.275s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_compute__functions.h
+[11.275s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__functions.c
+[11.275s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_model_name__description.c
+[11.275s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_start__struct.h
+[11.275s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_capture__type_support.c
+[11.275s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/is_connected__struct.h
+[11.275s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_compute__functions.c
+[11.275s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_compute__type_support.c
+[11.275s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__type_support.h
+[11.275s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_capture__struct.h
+[11.275s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_start__functions.c
+[11.276s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_save__functions.c
+[11.276s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_serial_number__type_support.c
+[11.276s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_capture__functions.h
+[11.276s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_start__type_support.c
+[11.276s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__type_support.c
+[11.276s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_serial_number__description.c
+[11.276s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_capture__functions.c
+[11.276s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_save__description.c
+[11.276s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_compute__type_support.h
+[11.276s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_serial_number__functions.h
+[11.276s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/is_connected__type_support.c
+[11.276s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_save__type_support.c
+[11.276s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_save__struct.h
+[11.276s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__type_support.h
+[11.276s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_capture__type_support.c
+[11.276s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_markers__description.c
+[11.276s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_load__type_support.h
+[11.277s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__functions.h
+[11.277s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__description.c
+[11.277s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_read__type_support.c
+[11.277s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_read__functions.h
+[11.277s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_capture__description.c
+[11.277s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/is_connected__type_support.h
+[11.277s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_compute__struct.h
+[11.277s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_markers__functions.h
+[11.277s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__struct.h
+[11.277s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_read__description.c
+[11.277s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_capture__description.c
+[11.277s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__functions.h
+[11.277s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_markers__struct.h
+[11.277s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_capture__functions.c
+[11.277s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_read__struct.h
+[11.277s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_load__functions.h
+[11.277s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_serial_number__functions.c
+[11.278s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_save__type_support.h
+[11.278s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_save__functions.h
+[11.278s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_load__description.c
+[11.278s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_serial_number__struct.h
+[11.278s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_capture__functions.h
+[11.278s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__functions.c
+[11.278s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_start__functions.h
+[11.278s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_capture__type_support.h
+[11.278s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__type_support.c
+[11.278s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_load__struct.h
+[11.278s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/is_connected__functions.c
+[11.278s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_capture__type_support.h
+[11.278s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_read__functions.c
+[11.278s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_serial_number__type_support.h
+[11.278s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_load__type_support.c
+[11.278s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_model_name__type_support.h
+[11.278s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/is_connected__description.c
+[11.278s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__description.c
+[11.279s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_capture__struct.h
+[11.279s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/infield_correction_capture.h
+[11.279s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg
+[11.279s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/fixed_placement_of_fiducial_marker.h
+[11.279s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/fixed_placement_of_calibration_objects.h
+[11.279s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detection_result_fiducial_markers.h
+[11.279s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/hand_eye_calibration_objects.h
+[11.279s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/marker_shape.h
+[11.279s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/hand_eye_calibration_residual.h
+[11.279s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/fixed_placement_of_calibration_board.h
+[11.279s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/rosidl_generator_c__visibility_control.h
+[11.279s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detection_result_calibration_board.h
+[11.279s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail
+[11.279s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_calibration_board__functions.h
+[11.279s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_residual__struct.h
+[11.279s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_objects__type_support.h
+[11.279s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_fiducial_markers__description.c
+[11.279s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_fiducial_markers__functions.h
+[11.279s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/marker_shape__struct.h
+[11.279s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_residual__functions.c
+[11.280s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_calibration_board__struct.h
+[11.280s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__struct.h
+[11.280s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__functions.h
+[11.280s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_fiducial_markers__type_support.c
+[11.280s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__type_support.c
+[11.280s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_calibration_board__type_support.h
+[11.280s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__type_support.h
+[11.280s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__type_support.c
+[11.280s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__description.c
+[11.280s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_residual__description.c
+[11.280s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/marker_shape__functions.c
+[11.280s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_residual__functions.h
+[11.280s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/marker_shape__functions.h
+[11.280s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_calibration_board__description.c
+[11.280s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__type_support.h
+[11.280s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_residual__type_support.c
+[11.280s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/marker_shape__type_support.c
+[11.280s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__functions.h
+[11.280s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__description.c
+[11.281s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_objects__struct.h
+[11.281s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/marker_shape__description.c
+[11.281s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__functions.c
+[11.281s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_calibration_board__type_support.c
+[11.281s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__struct.h
+[11.281s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_residual__type_support.h
+[11.281s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__description.c
+[11.281s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_objects__type_support.c
+[11.281s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__functions.h
+[11.281s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_objects__description.c
+[11.281s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_calibration_board__functions.c
+[11.281s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__struct.h
+[11.281s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/marker_shape__type_support.h
+[11.281s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__functions.c
+[11.281s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_fiducial_markers__struct.h
+[11.281s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_fiducial_markers__type_support.h
+[11.281s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_objects__functions.c
+[11.281s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__type_support.c
+[11.282s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__functions.c
+[11.282s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__type_support.h
+[11.282s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_fiducial_markers__functions.c
+[11.282s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_objects__functions.h
+[11.282s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/environment/library_path.sh
+[11.282s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/environment/library_path.dsv
+[11.282s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/libzivid_interfaces__rosidl_generator_c.so
+[11.282s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_interfaces/lib/libzivid_interfaces__rosidl_generator_c.so" to ""
+[11.282s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces
+[11.282s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv
+[11.282s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail
+[11.282s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_capture__rosidl_typesupport_fastrtps_c.h
+[11.283s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/is_connected__rosidl_typesupport_fastrtps_c.h
+[11.283s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_save__rosidl_typesupport_fastrtps_c.h
+[11.283s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_markers__rosidl_typesupport_fastrtps_c.h
+[11.283s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__rosidl_typesupport_fastrtps_c.h
+[11.283s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__rosidl_typesupport_fastrtps_c.h
+[11.283s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_capture__rosidl_typesupport_fastrtps_c.h
+[11.283s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_read__rosidl_typesupport_fastrtps_c.h
+[11.283s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_load__rosidl_typesupport_fastrtps_c.h
+[11.283s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_model_name__rosidl_typesupport_fastrtps_c.h
+[11.283s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__rosidl_typesupport_fastrtps_c.h
+[11.283s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_start__rosidl_typesupport_fastrtps_c.h
+[11.283s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_serial_number__rosidl_typesupport_fastrtps_c.h
+[11.283s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_compute__rosidl_typesupport_fastrtps_c.h
+[11.283s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg
+[11.283s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.283s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail
+[11.283s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/marker_shape__rosidl_typesupport_fastrtps_c.h
+[11.283s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__rosidl_typesupport_fastrtps_c.h
+[11.283s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_objects__rosidl_typesupport_fastrtps_c.h
+[11.284s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__rosidl_typesupport_fastrtps_c.h
+[11.284s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__rosidl_typesupport_fastrtps_c.h
+[11.284s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_calibration_board__rosidl_typesupport_fastrtps_c.h
+[11.284s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_fiducial_markers__rosidl_typesupport_fastrtps_c.h
+[11.284s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_residual__rosidl_typesupport_fastrtps_c.h
+[11.284s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/libzivid_interfaces__rosidl_typesupport_fastrtps_c.so
+[11.284s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_interfaces/lib/libzivid_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[11.284s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces
+[11.284s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv
+[11.284s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/infield_correction_read.hpp
+[11.284s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/capture_and_detect_markers.hpp
+[11.284s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/capture_assistant_suggest_settings.hpp
+[11.284s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/hand_eye_calibration_capture.hpp
+[11.284s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/camera_info_serial_number.hpp
+[11.284s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/camera_info_model_name.hpp
+[11.284s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/capture_and_save.hpp
+[11.284s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/is_connected.hpp
+[11.285s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/infield_correction_compute.hpp
+[11.285s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/capture_and_detect_calibration_board.hpp
+[11.285s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/hand_eye_calibration_calibrate.hpp
+[11.285s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/hand_eye_calibration_start.hpp
+[11.285s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail
+[11.285s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__type_support.hpp
+[11.285s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_start__struct.hpp
+[11.285s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_read__builder.hpp
+[11.285s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_capture__traits.hpp
+[11.285s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_capture__type_support.hpp
+[11.285s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_load__builder.hpp
+[11.285s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/is_connected__builder.hpp
+[11.285s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_compute__traits.hpp
+[11.285s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_read__struct.hpp
+[11.285s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__builder.hpp
+[11.285s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_serial_number__builder.hpp
+[11.285s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_serial_number__struct.hpp
+[11.285s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__builder.hpp
+[11.286s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__struct.hpp
+[11.286s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_serial_number__type_support.hpp
+[11.286s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_load__type_support.hpp
+[11.286s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/is_connected__struct.hpp
+[11.286s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_capture__builder.hpp
+[11.286s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_compute__type_support.hpp
+[11.286s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__type_support.hpp
+[11.286s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_serial_number__traits.hpp
+[11.286s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_capture__struct.hpp
+[11.286s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_markers__builder.hpp
+[11.286s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_model_name__builder.hpp
+[11.286s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_markers__type_support.hpp
+[11.286s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_save__traits.hpp
+[11.286s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_start__type_support.hpp
+[11.286s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_save__type_support.hpp
+[11.286s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/is_connected__type_support.hpp
+[11.286s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__traits.hpp
+[11.287s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__struct.hpp
+[11.287s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_capture__traits.hpp
+[11.287s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__builder.hpp
+[11.287s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_capture__type_support.hpp
+[11.287s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/is_connected__traits.hpp
+[11.287s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__traits.hpp
+[11.287s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_capture__builder.hpp
+[11.287s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_save__struct.hpp
+[11.287s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_load__struct.hpp
+[11.287s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_markers__struct.hpp
+[11.287s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_load__traits.hpp
+[11.287s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_model_name__type_support.hpp
+[11.287s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_start__traits.hpp
+[11.287s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_model_name__struct.hpp
+[11.287s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_read__type_support.hpp
+[11.287s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__type_support.hpp
+[11.287s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_compute__struct.hpp
+[11.288s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_model_name__traits.hpp
+[11.288s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_save__builder.hpp
+[11.288s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__traits.hpp
+[11.288s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_compute__builder.hpp
+[11.288s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_capture__struct.hpp
+[11.288s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_read__traits.hpp
+[11.288s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_start__builder.hpp
+[11.288s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__struct.hpp
+[11.288s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_markers__traits.hpp
+[11.288s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/infield_correction_capture.hpp
+[11.288s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/hand_eye_calibration_load.hpp
+[11.288s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg
+[11.288s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/marker_shape.hpp
+[11.288s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/fixed_placement_of_calibration_objects.hpp
+[11.288s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detection_result_calibration_board.hpp
+[11.288s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/fixed_placement_of_fiducial_marker.hpp
+[11.288s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detection_result_fiducial_markers.hpp
+[11.288s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/hand_eye_calibration_residual.hpp
+[11.289s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.289s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/fixed_placement_of_calibration_board.hpp
+[11.289s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/hand_eye_calibration_objects.hpp
+[11.289s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail
+[11.289s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_objects__struct.hpp
+[11.289s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/marker_shape__builder.hpp
+[11.289s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__builder.hpp
+[11.289s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_calibration_board__builder.hpp
+[11.289s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__struct.hpp
+[11.289s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_calibration_board__type_support.hpp
+[11.289s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_residual__type_support.hpp
+[11.289s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/marker_shape__traits.hpp
+[11.289s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__traits.hpp
+[11.289s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__builder.hpp
+[11.289s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__type_support.hpp
+[11.289s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/marker_shape__struct.hpp
+[11.289s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_residual__struct.hpp
+[11.289s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__type_support.hpp
+[11.289s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__traits.hpp
+[11.290s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_objects__builder.hpp
+[11.290s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_fiducial_markers__traits.hpp
+[11.290s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__type_support.hpp
+[11.290s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_fiducial_markers__builder.hpp
+[11.290s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__struct.hpp
+[11.290s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/marker_shape__type_support.hpp
+[11.290s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__builder.hpp
+[11.290s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_residual__traits.hpp
+[11.290s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_objects__traits.hpp
+[11.290s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_residual__builder.hpp
+[11.290s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_calibration_board__struct.hpp
+[11.290s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__struct.hpp
+[11.290s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_fiducial_markers__struct.hpp
+[11.290s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_calibration_board__traits.hpp
+[11.290s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__traits.hpp
+[11.290s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_fiducial_markers__type_support.hpp
+[11.290s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_objects__type_support.hpp
+[11.290s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces
+[11.291s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv
+[11.291s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail
+[11.291s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/is_connected__rosidl_typesupport_fastrtps_cpp.hpp
+[11.291s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_start__rosidl_typesupport_fastrtps_cpp.hpp
+[11.291s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__rosidl_typesupport_fastrtps_cpp.hpp
+[11.291s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_model_name__rosidl_typesupport_fastrtps_cpp.hpp
+[11.291s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_capture__rosidl_typesupport_fastrtps_cpp.hpp
+[11.291s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/dds_fastrtps
+[11.291s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_capture__rosidl_typesupport_fastrtps_cpp.hpp
+[11.291s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__rosidl_typesupport_fastrtps_cpp.hpp
+[11.291s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_read__rosidl_typesupport_fastrtps_cpp.hpp
+[11.291s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_compute__rosidl_typesupport_fastrtps_cpp.hpp
+[11.291s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__rosidl_typesupport_fastrtps_cpp.hpp
+[11.291s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_markers__rosidl_typesupport_fastrtps_cpp.hpp
+[11.291s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_serial_number__rosidl_typesupport_fastrtps_cpp.hpp
+[11.291s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_save__rosidl_typesupport_fastrtps_cpp.hpp
+[11.291s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_load__rosidl_typesupport_fastrtps_cpp.hpp
+[11.291s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg
+[11.291s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.292s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail
+[11.292s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_objects__rosidl_typesupport_fastrtps_cpp.hpp
+[11.292s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_residual__rosidl_typesupport_fastrtps_cpp.hpp
+[11.292s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__rosidl_typesupport_fastrtps_cpp.hpp
+[11.292s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/dds_fastrtps
+[11.292s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_calibration_board__rosidl_typesupport_fastrtps_cpp.hpp
+[11.292s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/marker_shape__rosidl_typesupport_fastrtps_cpp.hpp
+[11.292s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__rosidl_typesupport_fastrtps_cpp.hpp
+[11.292s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__rosidl_typesupport_fastrtps_cpp.hpp
+[11.292s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_fiducial_markers__rosidl_typesupport_fastrtps_cpp.hpp
+[11.292s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/libzivid_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[11.293s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_interfaces/lib/libzivid_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.293s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces
+[11.293s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv
+[11.293s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail
+[11.293s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__rosidl_typesupport_introspection_c.h
+[11.293s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_serial_number__rosidl_typesupport_introspection_c.h
+[11.293s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_markers__type_support.c
+[11.293s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__type_support.c
+[11.293s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_model_name__type_support.c
+[11.293s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/is_connected__rosidl_typesupport_introspection_c.h
+[11.293s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_capture__rosidl_typesupport_introspection_c.h
+[11.293s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_capture__rosidl_typesupport_introspection_c.h
+[11.293s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_compute__rosidl_typesupport_introspection_c.h
+[11.293s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_capture__type_support.c
+[11.294s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_compute__type_support.c
+[11.294s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_markers__rosidl_typesupport_introspection_c.h
+[11.294s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__rosidl_typesupport_introspection_c.h
+[11.294s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_serial_number__type_support.c
+[11.294s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_model_name__rosidl_typesupport_introspection_c.h
+[11.294s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_start__type_support.c
+[11.294s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__type_support.c
+[11.294s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/is_connected__type_support.c
+[11.294s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_save__type_support.c
+[11.294s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_capture__type_support.c
+[11.294s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_read__type_support.c
+[11.294s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_start__rosidl_typesupport_introspection_c.h
+[11.294s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__rosidl_typesupport_introspection_c.h
+[11.294s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_save__rosidl_typesupport_introspection_c.h
+[11.294s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_load__rosidl_typesupport_introspection_c.h
+[11.295s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__type_support.c
+[11.295s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_read__rosidl_typesupport_introspection_c.h
+[11.295s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_load__type_support.c
+[11.295s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg
+[11.295s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.295s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail
+[11.295s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_calibration_board__rosidl_typesupport_introspection_c.h
+[11.295s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/marker_shape__rosidl_typesupport_introspection_c.h
+[11.295s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__rosidl_typesupport_introspection_c.h
+[11.295s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_fiducial_markers__type_support.c
+[11.295s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__type_support.c
+[11.295s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__rosidl_typesupport_introspection_c.h
+[11.295s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__type_support.c
+[11.295s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_objects__rosidl_typesupport_introspection_c.h
+[11.295s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_residual__type_support.c
+[11.295s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/marker_shape__type_support.c
+[11.295s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__rosidl_typesupport_introspection_c.h
+[11.295s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_calibration_board__type_support.c
+[11.296s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_objects__type_support.c
+[11.296s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_residual__rosidl_typesupport_introspection_c.h
+[11.296s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__type_support.c
+[11.296s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_fiducial_markers__rosidl_typesupport_introspection_c.h
+[11.296s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/libzivid_interfaces__rosidl_typesupport_introspection_c.so
+[11.296s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_interfaces/lib/libzivid_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[11.296s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/libzivid_interfaces__rosidl_typesupport_c.so
+[11.297s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_interfaces/lib/libzivid_interfaces__rosidl_typesupport_c.so" to ""
+[11.297s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces
+[11.297s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv
+[11.297s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail
+[11.297s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/is_connected__type_support.cpp
+[11.297s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_read__type_support.cpp
+[11.297s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_load__type_support.cpp
+[11.297s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_load__rosidl_typesupport_introspection_cpp.hpp
+[11.297s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_read__rosidl_typesupport_introspection_cpp.hpp
+[11.297s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_capture__rosidl_typesupport_introspection_cpp.hpp
+[11.297s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_markers__rosidl_typesupport_introspection_cpp.hpp
+[11.297s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_compute__rosidl_typesupport_introspection_cpp.hpp
+[11.297s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_save__type_support.cpp
+[11.297s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/is_connected__rosidl_typesupport_introspection_cpp.hpp
+[11.297s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_start__rosidl_typesupport_introspection_cpp.hpp
+[11.297s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__type_support.cpp
+[11.297s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_serial_number__type_support.cpp
+[11.297s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_serial_number__rosidl_typesupport_introspection_cpp.hpp
+[11.297s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_save__rosidl_typesupport_introspection_cpp.hpp
+[11.297s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_capture__rosidl_typesupport_introspection_cpp.hpp
+[11.298s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_start__type_support.cpp
+[11.298s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_model_name__type_support.cpp
+[11.298s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_assistant_suggest_settings__rosidl_typesupport_introspection_cpp.hpp
+[11.298s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_compute__type_support.cpp
+[11.298s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__rosidl_typesupport_introspection_cpp.hpp
+[11.298s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__type_support.cpp
+[11.298s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_markers__type_support.cpp
+[11.298s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/infield_correction_capture__type_support.cpp
+[11.298s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_calibrate__rosidl_typesupport_introspection_cpp.hpp
+[11.298s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/hand_eye_calibration_capture__type_support.cpp
+[11.298s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/camera_info_model_name__rosidl_typesupport_introspection_cpp.hpp
+[11.298s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/srv/detail/capture_and_detect_calibration_board__type_support.cpp
+[11.298s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg
+[11.298s] -- Up-to-date: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail
+[11.298s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__rosidl_typesupport_introspection_cpp.hpp
+[11.298s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__rosidl_typesupport_introspection_cpp.hpp
+[11.298s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_objects__type_support.cpp
+[11.298s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__type_support.cpp
+[11.299s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_calibration_board__type_support.cpp
+[11.299s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/marker_shape__rosidl_typesupport_introspection_cpp.hpp
+[11.299s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_residual__type_support.cpp
+[11.299s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_residual__rosidl_typesupport_introspection_cpp.hpp
+[11.299s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_objects__rosidl_typesupport_introspection_cpp.hpp
+[11.299s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/hand_eye_calibration_objects__rosidl_typesupport_introspection_cpp.hpp
+[11.299s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_fiducial_marker__type_support.cpp
+[11.299s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_calibration_board__rosidl_typesupport_introspection_cpp.hpp
+[11.299s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/fixed_placement_of_calibration_board__type_support.cpp
+[11.299s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_fiducial_markers__rosidl_typesupport_introspection_cpp.hpp
+[11.299s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/marker_shape__type_support.cpp
+[11.299s] -- Installing: /root/ros_ws/install/zivid_interfaces/include/zivid_interfaces/zivid_interfaces/msg/detail/detection_result_fiducial_markers__type_support.cpp
+[11.299s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/libzivid_interfaces__rosidl_typesupport_introspection_cpp.so
+[11.300s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_interfaces/lib/libzivid_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[11.300s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/libzivid_interfaces__rosidl_typesupport_cpp.so
+[11.300s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_interfaces/lib/libzivid_interfaces__rosidl_typesupport_cpp.so" to ""
+[11.301s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/environment/pythonpath.sh
+[11.301s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/environment/pythonpath.dsv
+[11.301s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces-3.1.0-py3.12.egg-info
+[11.301s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces-3.1.0-py3.12.egg-info/top_level.txt
+[11.301s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces-3.1.0-py3.12.egg-info/SOURCES.txt
+[11.301s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces-3.1.0-py3.12.egg-info/PKG-INFO
+[11.301s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces-3.1.0-py3.12.egg-info/dependency_links.txt
+[11.301s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces
+[11.301s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv
+[11.301s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_camera_info_serial_number.py
+[11.301s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_infield_correction_compute.py
+[11.301s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_hand_eye_calibration_capture.py
+[11.301s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_hand_eye_calibration_start.py
+[11.301s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_camera_info_model_name_s.c
+[11.301s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_capture_and_detect_markers.py
+[11.301s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_infield_correction_capture.py
+[11.301s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_capture_and_save.py
+[11.301s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_hand_eye_calibration_calibrate.py
+[11.301s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_infield_correction_read.py
+[11.302s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/__init__.py
+[11.302s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_hand_eye_calibration_calibrate_s.c
+[11.302s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_capture_assistant_suggest_settings_s.c
+[11.302s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_hand_eye_calibration_capture_s.c
+[11.302s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_camera_info_model_name.py
+[11.302s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_hand_eye_calibration_start_s.c
+[11.302s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_is_connected.py
+[11.302s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_infield_correction_compute_s.c
+[11.302s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_capture_and_detect_calibration_board.py
+[11.302s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_hand_eye_calibration_load.py
+[11.302s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_capture_and_detect_markers_s.c
+[11.302s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_infield_correction_read_s.c
+[11.302s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_infield_correction_capture_s.c
+[11.302s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_is_connected_s.c
+[11.302s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_capture_assistant_suggest_settings.py
+[11.302s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_capture_and_save_s.c
+[11.302s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_camera_info_serial_number_s.c
+[11.302s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_hand_eye_calibration_load_s.c
+[11.302s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_capture_and_detect_calibration_board_s.c
+[11.303s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/__init__.py
+[11.303s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/_zivid_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.303s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/zivid_interfaces_s__rosidl_typesupport_introspection_c.so
+[11.303s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg
+[11.303s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_fixed_placement_of_calibration_objects.py
+[11.303s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_hand_eye_calibration_residual_s.c
+[11.303s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_hand_eye_calibration_objects.py
+[11.303s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_marker_shape_s.c
+[11.303s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_detection_result_calibration_board_s.c
+[11.303s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_detection_result_fiducial_markers.py
+[11.303s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_marker_shape.py
+[11.303s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/__init__.py
+[11.303s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_detection_result_fiducial_markers_s.c
+[11.303s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_fixed_placement_of_calibration_objects_s.c
+[11.303s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_detection_result_calibration_board.py
+[11.303s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_hand_eye_calibration_objects_s.c
+[11.303s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_fixed_placement_of_fiducial_marker_s.c
+[11.304s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_hand_eye_calibration_residual.py
+[11.304s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_fixed_placement_of_fiducial_marker.py
+[11.304s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_fixed_placement_of_calibration_board.py
+[11.304s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_fixed_placement_of_calibration_board_s.c
+[11.304s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/zivid_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[11.304s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/_zivid_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[11.304s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/_zivid_interfaces_s.ep.rosidl_typesupport_c.c
+[11.304s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/zivid_interfaces_s__rosidl_typesupport_c.so
+[11.357s] Listing '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces'...
+[11.357s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/__init__.py'...
+[11.357s] Listing '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg'...
+[11.357s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/__init__.py'...
+[11.357s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_detection_result_calibration_board.py'...
+[11.357s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_detection_result_fiducial_markers.py'...
+[11.357s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_fixed_placement_of_calibration_board.py'...
+[11.357s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_fixed_placement_of_calibration_objects.py'...
+[11.357s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_fixed_placement_of_fiducial_marker.py'...
+[11.358s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_hand_eye_calibration_objects.py'...
+[11.358s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_hand_eye_calibration_residual.py'...
+[11.358s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/msg/_marker_shape.py'...
+[11.358s] Listing '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv'...
+[11.358s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/__init__.py'...
+[11.358s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_camera_info_model_name.py'...
+[11.358s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_camera_info_serial_number.py'...
+[11.358s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_capture_and_detect_calibration_board.py'...
+[11.358s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_capture_and_detect_markers.py'...
+[11.358s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_capture_and_save.py'...
+[11.358s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_capture_assistant_suggest_settings.py'...
+[11.358s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_hand_eye_calibration_calibrate.py'...
+[11.358s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_hand_eye_calibration_capture.py'...
+[11.358s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_hand_eye_calibration_load.py'...
+[11.358s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_hand_eye_calibration_start.py'...
+[11.358s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_infield_correction_capture.py'...
+[11.358s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_infield_correction_compute.py'...
+[11.358s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_infield_correction_read.py'...
+[11.358s] Compiling '/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/srv/_is_connected.py'...
+[11.361s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/zivid_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[11.361s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/zivid_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[11.361s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/zivid_interfaces_s__rosidl_typesupport_introspection_c.so
+[11.361s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/zivid_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[11.361s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/zivid_interfaces_s__rosidl_typesupport_c.so
+[11.361s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_interfaces/lib/python3.12/site-packages/zivid_interfaces/zivid_interfaces_s__rosidl_typesupport_c.so" to ""
+[11.361s] -- Installing: /root/ros_ws/install/zivid_interfaces/lib/libzivid_interfaces__rosidl_generator_py.so
+[11.362s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/zivid_interfaces/lib/libzivid_interfaces__rosidl_generator_py.so" to ""
+[11.362s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/DetectionResultCalibrationBoard.idl
+[11.362s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/DetectionResultFiducialMarkers.idl
+[11.362s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/FixedPlacementOfCalibrationBoard.idl
+[11.362s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/FixedPlacementOfCalibrationObjects.idl
+[11.362s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/FixedPlacementOfFiducialMarker.idl
+[11.362s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/HandEyeCalibrationObjects.idl
+[11.362s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/HandEyeCalibrationResidual.idl
+[11.362s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/MarkerShape.idl
+[11.362s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/CaptureAndDetectCalibrationBoard.idl
+[11.362s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/CaptureAndDetectMarkers.idl
+[11.362s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/CaptureAndSave.idl
+[11.362s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/CaptureAssistantSuggestSettings.idl
+[11.362s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/CameraInfoModelName.idl
+[11.362s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/CameraInfoSerialNumber.idl
+[11.363s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/HandEyeCalibrationCalibrate.idl
+[11.363s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/HandEyeCalibrationCapture.idl
+[11.363s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/HandEyeCalibrationLoad.idl
+[11.363s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/HandEyeCalibrationStart.idl
+[11.363s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/InfieldCorrectionCapture.idl
+[11.363s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/InfieldCorrectionCompute.idl
+[11.363s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/InfieldCorrectionRead.idl
+[11.363s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/IsConnected.idl
+[11.363s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/DetectionResultCalibrationBoard.msg
+[11.363s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/DetectionResultFiducialMarkers.msg
+[11.363s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/FixedPlacementOfCalibrationBoard.msg
+[11.363s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/FixedPlacementOfCalibrationObjects.msg
+[11.363s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/FixedPlacementOfFiducialMarker.msg
+[11.363s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/HandEyeCalibrationObjects.msg
+[11.363s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/HandEyeCalibrationResidual.msg
+[11.364s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/msg/MarkerShape.msg
+[11.364s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/CaptureAndDetectCalibrationBoard.srv
+[11.364s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/CaptureAndDetectMarkers.srv
+[11.364s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/CaptureAndSave.srv
+[11.364s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/CaptureAssistantSuggestSettings.srv
+[11.364s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/CameraInfoModelName.srv
+[11.364s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/CameraInfoSerialNumber.srv
+[11.364s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/HandEyeCalibrationCalibrate.srv
+[11.364s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/HandEyeCalibrationCapture.srv
+[11.364s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/HandEyeCalibrationLoad.srv
+[11.364s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/HandEyeCalibrationStart.srv
+[11.364s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/InfieldCorrectionCapture.srv
+[11.364s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/InfieldCorrectionCompute.srv
+[11.364s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/InfieldCorrectionRead.srv
+[11.365s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/srv/IsConnected.srv
+[11.365s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/ament_index/resource_index/package_run_dependencies/zivid_interfaces
+[11.365s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/ament_index/resource_index/parent_prefix_path/zivid_interfaces
+[11.365s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/environment/ament_prefix_path.sh
+[11.365s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/environment/ament_prefix_path.dsv
+[11.365s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/environment/path.sh
+[11.365s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/environment/path.dsv
+[11.365s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/local_setup.bash
+[11.365s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/local_setup.sh
+[11.365s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/local_setup.zsh
+[11.365s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/local_setup.dsv
+[11.365s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/package.dsv
+[11.365s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/ament_index/resource_index/packages/zivid_interfaces
+[11.365s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/export_zivid_interfaces__rosidl_generator_cExport.cmake
+[11.366s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/export_zivid_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.366s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/export_zivid_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[11.366s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/export_zivid_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.366s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/export_zivid_interfaces__rosidl_generator_cppExport.cmake
+[11.366s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/export_zivid_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.366s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/export_zivid_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.366s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/zivid_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.366s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/zivid_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.366s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/zivid_interfaces__rosidl_typesupport_cExport.cmake
+[11.366s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/zivid_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.367s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/zivid_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.367s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/zivid_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.367s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/zivid_interfaces__rosidl_typesupport_cppExport.cmake
+[11.367s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/zivid_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.367s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/export_zivid_interfaces__rosidl_generator_pyExport.cmake
+[11.367s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/export_zivid_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[11.367s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.367s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.367s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.367s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.368s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.368s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.368s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.368s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/zivid_interfacesConfig.cmake
+[11.368s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/cmake/zivid_interfacesConfig-version.cmake
+[11.368s] -- Installing: /root/ros_ws/install/zivid_interfaces/share/zivid_interfaces/package.xml
+[11.369s] Invoked command in '/root/ros_ws/build/zivid_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_ws/build/zivid_interfaces

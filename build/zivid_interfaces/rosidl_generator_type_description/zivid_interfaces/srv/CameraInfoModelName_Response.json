@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "zivid_interfaces/srv/CameraInfoModelName_Response",
+      "fields": [
+        {
+          "name": "model_name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "zivid_interfaces/srv/CameraInfoModelName_Response",
+      "hash_string": "RIHS01_5fab9e11984375f4797eb9b06bd0ec529fad6e666a9506df243a724969473f5b"
+    }
+  ]
+}

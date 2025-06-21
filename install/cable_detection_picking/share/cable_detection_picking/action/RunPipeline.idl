@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from cable_detection_picking/action/RunPipeline.action
+// generated code does not contain a copyright notice
+
+
+module cable_detection_picking {
+  module action {
+    @verbatim (language="comment", text=
+      "Request")
+    struct RunPipeline_Goal {
+      boolean start;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct RunPipeline_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct RunPipeline_Feedback {
+      string current_step;
+    };
+  };
+};

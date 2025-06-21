@@ -1,0 +1,2 @@
+[1.554s] Invoking command in '/root/ros_ws/build/ur_moveit_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /root/ros_ws/build/ur_moveit_cpp -- -j20 -l20
+[2.041s] [100%] Built target moveit_cpp_tutorial

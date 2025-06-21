@@ -1,0 +1,6 @@
+Invoking command in '/root/ros_ws/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_ws/src/ros2_robotiq_gripper/robotiq_controllers -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/robotiq_controllers
+Invoked command in '/root/ros_ws/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_ws/src/ros2_robotiq_gripper/robotiq_controllers -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/robotiq_controllers
+Invoking command in '/root/ros_ws/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_ws/build/robotiq_controllers -- -j28 -l28
+Invoked command in '/root/ros_ws/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_ws/build/robotiq_controllers -- -j28 -l28
+Invoking command in '/root/ros_ws/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_ws/build/robotiq_controllers
+Invoked command in '/root/ros_ws/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_ws/build/robotiq_controllers

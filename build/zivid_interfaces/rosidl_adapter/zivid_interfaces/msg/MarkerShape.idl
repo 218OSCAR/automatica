@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from zivid_interfaces/msg/MarkerShape.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Pose.idl"
+
+module zivid_interfaces {
+  module msg {
+    typedef geometry_msgs::msg::Point geometry_msgs__msg__Point;
+    typedef geometry_msgs__msg__Point geometry_msgs__msg__Point__4[4];
+    @verbatim (language="comment", text=
+      "The 2D image coordinates of the corners of the detected marker.")
+    struct MarkerShape {
+      geometry_msgs__msg__Point__4 corners_in_pixel_coordinates;
+
+      @verbatim (language="comment", text=
+        "The 3D spatial coordinates of the corners of the detected marker." "\n"
+        "" "\n"
+        "Note: Lengths are given in units of meter. In the Zivid driver, the units are automatically converted from the default" "\n"
+        "units of the Zivid point clouds in millimeter, to the ROS convention of meter.")
+      geometry_msgs__msg__Point__4 corners_in_camera_coordinates;
+
+      @verbatim (language="comment", text=
+        "The id of the detected marker.")
+      int32 id;
+
+      @verbatim (language="comment", text=
+        "The 3D pose of the marker. The returned pose will be positioned at the center of the marker, and have an orientation" "\n"
+        "such that its z-axis points perpendicularly into the face of the marker." "\n"
+        "" "\n"
+        "Note: Lengths are given in units of meter. In the Zivid driver, the units are automatically converted from the default" "\n"
+        "units of the Zivid point clouds in millimeter, to the ROS convention of meter.")
+      geometry_msgs::msg::Pose pose;
+    };
+  };
+};

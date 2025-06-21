@@ -1,0 +1,5 @@
+  File "/root/ros_ws/install/panda_moveit_python/lib/python3.12/site-packages/panda_moveit_python/motion_planning_python_api_tutorial.py", line 190
+    plan_and_execute(node=node, panda, panda_arm, logger, sleep_time=3.0)
+                                                                        ^
+SyntaxError: positional argument follows keyword argument
+

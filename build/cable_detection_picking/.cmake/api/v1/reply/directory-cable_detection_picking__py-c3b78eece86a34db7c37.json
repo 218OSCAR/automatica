@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "cable_detection_picking__py",
+		"source" : "/root/ros_ws/build/cable_detection_picking/cable_detection_picking__py"
+	}
+}

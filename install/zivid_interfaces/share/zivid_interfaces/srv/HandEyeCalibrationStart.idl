@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from zivid_interfaces/srv/HandEyeCalibrationStart.srv
+// generated code does not contain a copyright notice
+
+#include "zivid_interfaces/msg/HandEyeCalibrationObjects.idl"
+
+module zivid_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Set working directory to store captures (ZDF) and robot poses (YAML) together as hand-eye captures are performed. The" "\n"
+      "data collected into the working directory can later be loaded and used again for calibration." "\n"
+      "" "\n"
+      "Leave the working directory empty to not store any capture files or robot poses on disk. Any hand-eye calibration data" "\n"
+      "gathered will then be gone after shutting down the camera node.")
+    struct HandEyeCalibrationStart_Request {
+      string working_directory;
+
+      @verbatim (language="comment", text=
+        "Specify the calibration object(s) to be used during this hand-eye calibration session.")
+      zivid_interfaces::msg::HandEyeCalibrationObjects calibration_objects;
+    };
+    struct HandEyeCalibrationStart_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

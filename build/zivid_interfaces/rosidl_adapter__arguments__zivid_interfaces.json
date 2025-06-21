@@ -1,0 +1,27 @@
+{
+  "package_name": "zivid_interfaces",
+  "non_idl_tuples": [
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:msg/DetectionResultCalibrationBoard.msg",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:msg/DetectionResultFiducialMarkers.msg",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:msg/FixedPlacementOfCalibrationBoard.msg",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:msg/FixedPlacementOfCalibrationObjects.msg",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:msg/FixedPlacementOfFiducialMarker.msg",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:msg/HandEyeCalibrationObjects.msg",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:msg/HandEyeCalibrationResidual.msg",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:msg/MarkerShape.msg",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:srv/CaptureAndDetectCalibrationBoard.srv",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:srv/CaptureAndDetectMarkers.srv",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:srv/CaptureAndSave.srv",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:srv/CaptureAssistantSuggestSettings.srv",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:srv/CameraInfoModelName.srv",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:srv/CameraInfoSerialNumber.srv",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:srv/HandEyeCalibrationCalibrate.srv",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:srv/HandEyeCalibrationCapture.srv",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:srv/HandEyeCalibrationLoad.srv",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:srv/HandEyeCalibrationStart.srv",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:srv/InfieldCorrectionCapture.srv",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:srv/InfieldCorrectionCompute.srv",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:srv/InfieldCorrectionRead.srv",
+    "/root/ros_ws/src/zivid-ros/zivid_interfaces:srv/IsConnected.srv"
+  ]
+}

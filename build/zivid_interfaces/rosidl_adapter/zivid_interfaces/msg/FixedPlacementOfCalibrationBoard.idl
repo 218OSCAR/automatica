@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from zivid_interfaces/msg/FixedPlacementOfCalibrationBoard.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Pose.idl"
+
+module zivid_interfaces {
+  module msg {
+    module FixedPlacementOfCalibrationBoard_Constants {
+      const uint8 POSITION = 1;
+      const uint8 POSE = 2;
+    };
+    struct FixedPlacementOfCalibrationBoard {
+      @verbatim (language="comment", text=
+        "The representation to use for the placement of the fixed calibration board: POSITION or POSE")
+      uint8 representation;
+
+      @verbatim (language="comment", text=
+        "For POSITION representation" "\n"
+        "Position of the calibration board's origin." "\n"
+        "" "\n"
+        "The origin is the top left inner corner of the calibration board." "\n"
+        "" "\n"
+        "For eye-in-hand calibration, the position should be given in the robot's base frame. For eye-to-hand calibration, the" "\n"
+        "position should be given in the robot's end-effector frame." "\n"
+        "" "\n"
+        "Note: Lengths should be given in units of meter. In the Zivid driver, this is converted internally to match the" "\n"
+        "default units of Zivid point clouds which are given in millimeter.")
+      geometry_msgs::msg::Point position;
+
+      @verbatim (language="comment", text=
+        "For POSE representation" "\n"
+        "Pose of the calibration board." "\n"
+        "" "\n"
+        "Using a pose instead of a position can improve accuracy of the hand-eye calibration in some situations. For" "\n"
+        "eye-in-hand calibration, the pose should be given in the robot's base frame. For eye-to-hand calibration, the pose" "\n"
+        "should be given in the robot's end-effector frame." "\n"
+        "" "\n"
+        "Note: Lengths should be given in units of meter. In the Zivid driver, this is converted internally to match the" "\n"
+        "default units of Zivid point clouds which are given in millimeter.")
+      geometry_msgs::msg::Pose pose;
+    };
+  };
+};

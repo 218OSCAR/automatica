@@ -1,0 +1,6 @@
+Invoking command in '/root/ros_ws/build/cable_detection_picking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_ws/src/cable_detection_picking -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/cable_detection_picking
+Invoked command in '/root/ros_ws/build/cable_detection_picking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_ws/src/cable_detection_picking -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/cable_detection_picking
+Invoking command in '/root/ros_ws/build/cable_detection_picking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_ws/build/cable_detection_picking -- -j28 -l28
+Invoked command in '/root/ros_ws/build/cable_detection_picking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_ws/build/cable_detection_picking -- -j28 -l28
+Invoking command in '/root/ros_ws/build/cable_detection_picking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_ws/build/cable_detection_picking
+Invoked command in '/root/ros_ws/build/cable_detection_picking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_ws/build/cable_detection_picking

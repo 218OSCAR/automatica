@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "zivid_interfaces/srv/IsConnected_Response",
+      "fields": [
+        {
+          "name": "is_connected",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "zivid_interfaces/srv/IsConnected_Response",
+      "hash_string": "RIHS01_7f91ec6b3da70d9b11beb1941ebe363ac471324fa02ad31f157ca1e1fec6609c"
+    }
+  ]
+}

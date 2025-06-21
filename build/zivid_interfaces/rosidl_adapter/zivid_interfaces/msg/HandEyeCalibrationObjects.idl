@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from zivid_interfaces/msg/HandEyeCalibrationObjects.msg
+// generated code does not contain a copyright notice
+
+
+module zivid_interfaces {
+  module msg {
+    module HandEyeCalibrationObjects_Constants {
+      const uint8 CALIBRATION_BOARD = 1;
+      const uint8 FIDUCIAL_MARKERS = 2;
+    };
+    struct HandEyeCalibrationObjects {
+      @verbatim (language="comment", text=
+        "The type of calibration object to use: CALIBRATION_BOARD or FIDUCIAL_MARKERS")
+      uint8 type;
+
+      @verbatim (language="comment", text=
+        "For FIDUCIAL_MARKERS type" "\n"
+        "A list of the IDs of markers to be detected.")
+      sequence<int32> marker_ids;
+
+      @verbatim (language="comment", text=
+        "The marker dictionary that describes the appearance of each marker. Example: \"aruco4x4_50\".")
+      string marker_dictionary;
+    };
+  };
+};

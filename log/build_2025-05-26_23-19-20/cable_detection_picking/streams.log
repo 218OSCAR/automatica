@@ -1,0 +1,241 @@
+[0.022s] Invoking command in '/root/ros_ws/build/cable_detection_picking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_ws/src/cable_detection_picking -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/cable_detection_picking
+[0.416s] -- The C compiler identification is GNU 13.3.0
+[0.416s] -- The CXX compiler identification is GNU 13.3.0
+[0.417s] -- Detecting C compiler ABI info
+[0.417s] -- Detecting C compiler ABI info - done
+[0.417s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.417s] -- Detecting C compile features
+[0.417s] -- Detecting C compile features - done
+[0.417s] -- Detecting CXX compiler ABI info
+[0.417s] -- Detecting CXX compiler ABI info - done
+[0.417s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.417s] -- Detecting CXX compile features
+[0.417s] -- Detecting CXX compile features - done
+[0.417s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.417s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.419s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.422s] -- Found action_msgs: 2.0.2 (/opt/ros/jazzy/share/action_msgs/cmake)
+[0.467s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.480s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.503s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.527s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.584s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.599s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.032s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.513s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.724s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.728s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.816s] -- Found PythonExtra: /usr/bin/python3  
+[2.090s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.120s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.364s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.364s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.398s] -- Added test 'lint_cmake' to check CMake code style
+[2.416s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.560s] -- Added test 'xmllint' to check XML markup files
+[2.563s] -- Configuring done (2.5s)
+[2.596s] -- Generating done (0.0s)
+[2.606s] -- Build files have been written to: /root/ros_ws/build/cable_detection_picking
+[2.614s] Invoked command in '/root/ros_ws/build/cable_detection_picking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_ws/src/cable_detection_picking -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/cable_detection_picking
+[2.615s] Invoking command in '/root/ros_ws/build/cable_detection_picking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_ws/build/cable_detection_picking -- -j28 -l28
+[2.656s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.662s] [  2%] Built target ament_cmake_python_copy_cable_detection_picking
+[2.762s] [  2%] Built target cable_detection_picking__rosidl_generator_type_description
+[2.771s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.780s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.789s] running egg_info
+[2.789s] creating cable_detection_picking.egg-info
+[2.801s] writing cable_detection_picking.egg-info/PKG-INFO
+[2.801s] writing dependency_links to cable_detection_picking.egg-info/dependency_links.txt
+[2.801s] writing top-level names to cable_detection_picking.egg-info/top_level.txt
+[2.801s] writing manifest file 'cable_detection_picking.egg-info/SOURCES.txt'
+[2.836s] reading manifest file 'cable_detection_picking.egg-info/SOURCES.txt'
+[2.836s] writing manifest file 'cable_detection_picking.egg-info/SOURCES.txt'
+[2.851s] [  8%] Built target ament_cmake_python_build_cable_detection_picking_egg
+[2.994s] [ 11%] [32mBuilding C object CMakeFiles/cable_detection_picking__rosidl_generator_c.dir/rosidl_generator_c/cable_detection_picking/action/detail/run_pipeline__description.c.o[0m
+[2.995s] [ 14%] [32mBuilding C object CMakeFiles/cable_detection_picking__rosidl_generator_c.dir/rosidl_generator_c/cable_detection_picking/action/detail/run_pipeline__functions.c.o[0m
+[2.995s] [ 17%] [32mBuilding C object CMakeFiles/cable_detection_picking__rosidl_generator_c.dir/rosidl_generator_c/cable_detection_picking/action/detail/run_pipeline__type_support.c.o[0m
+[3.002s] [ 17%] Built target cable_detection_picking__cpp
+[3.078s] [ 20%] [32m[1mLinking C shared library libcable_detection_picking__rosidl_generator_c.so[0m
+[3.106s] [ 20%] Built target cable_detection_picking__rosidl_generator_c
+[3.113s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.116s] [ 38%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.116s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.116s] [ 38%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.116s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.116s] [ 38%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.269s] [ 41%] [32mBuilding CXX object CMakeFiles/cable_detection_picking__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cable_detection_picking/action/run_pipeline__type_support.cpp.o[0m
+[3.282s] [ 44%] [32mBuilding CXX object CMakeFiles/cable_detection_picking__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cable_detection_picking/action/detail/run_pipeline__type_support.cpp.o[0m
+[3.286s] [ 47%] [32mBuilding C object CMakeFiles/cable_detection_picking__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cable_detection_picking/action/detail/run_pipeline__type_support.c.o[0m
+[3.325s] [ 50%] [32m[1mLinking C shared library libcable_detection_picking__rosidl_typesupport_introspection_c.so[0m
+[3.346s] [ 52%] [32mBuilding CXX object CMakeFiles/cable_detection_picking__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cable_detection_picking/action/detail/dds_fastrtps/run_pipeline__type_support.cpp.o[0m
+[3.346s] [ 55%] [32mBuilding CXX object CMakeFiles/cable_detection_picking__rosidl_typesupport_c.dir/rosidl_typesupport_c/cable_detection_picking/action/run_pipeline__type_support.cpp.o[0m
+[3.350s] [ 55%] Built target cable_detection_picking__rosidl_typesupport_introspection_c
+[3.395s] [ 58%] [32m[1mLinking CXX shared library libcable_detection_picking__rosidl_typesupport_c.so[0m
+[3.432s] [ 58%] Built target cable_detection_picking__rosidl_typesupport_c
+[3.519s] [ 61%] [32mBuilding CXX object CMakeFiles/cable_detection_picking__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cable_detection_picking/action/detail/run_pipeline__type_support_c.cpp.o[0m
+[3.623s] [ 64%] [32m[1mLinking CXX shared library libcable_detection_picking__rosidl_typesupport_introspection_cpp.so[0m
+[3.664s] [ 64%] Built target cable_detection_picking__rosidl_typesupport_introspection_cpp
+[3.774s] [ 67%] [32m[1mLinking CXX shared library libcable_detection_picking__rosidl_typesupport_cpp.so[0m
+[3.821s] [ 67%] Built target cable_detection_picking__rosidl_typesupport_cpp
+[3.895s] [ 70%] [32m[1mLinking CXX shared library libcable_detection_picking__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.941s] [ 70%] Built target cable_detection_picking__rosidl_typesupport_fastrtps_cpp
+[3.986s] [ 73%] [32m[1mLinking CXX shared library libcable_detection_picking__rosidl_typesupport_fastrtps_c.so[0m
+[4.052s] [ 73%] Built target cable_detection_picking__rosidl_typesupport_fastrtps_c
+[4.090s] [ 73%] Built target cable_detection_picking
+[4.107s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.414s] [ 76%] Built target cable_detection_picking__py
+[4.428s] [ 79%] [32mBuilding C object CMakeFiles/cable_detection_picking__rosidl_generator_py.dir/rosidl_generator_py/cable_detection_picking/action/_run_pipeline_s.c.o[0m
+[4.526s] [ 82%] [32m[1mLinking C shared library libcable_detection_picking__rosidl_generator_py.so[0m
+[4.556s] [ 82%] Built target cable_detection_picking__rosidl_generator_py
+[4.569s] [ 85%] [32mBuilding C object CMakeFiles/cable_detection_picking_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/cable_detection_picking/_cable_detection_picking_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.572s] [ 88%] [32mBuilding C object CMakeFiles/cable_detection_picking_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/cable_detection_picking/_cable_detection_picking_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.573s] [ 91%] [32mBuilding C object CMakeFiles/cable_detection_picking_s__rosidl_typesupport_c.dir/rosidl_generator_py/cable_detection_picking/_cable_detection_picking_s.ep.rosidl_typesupport_c.c.o[0m
+[4.660s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/cable_detection_picking/cable_detection_picking_s__rosidl_typesupport_introspection_c.so[0m
+[4.684s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/cable_detection_picking/cable_detection_picking_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.685s] [100%] [32m[1mLinking C shared module rosidl_generator_py/cable_detection_picking/cable_detection_picking_s__rosidl_typesupport_c.so[0m
+[4.696s] [100%] Built target cable_detection_picking_s__rosidl_typesupport_introspection_c
+[4.718s] [100%] Built target cable_detection_picking_s__rosidl_typesupport_fastrtps_c
+[4.720s] [100%] Built target cable_detection_picking_s__rosidl_typesupport_c
+[4.734s] Invoked command in '/root/ros_ws/build/cable_detection_picking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_ws/build/cable_detection_picking -- -j28 -l28
+[4.737s] Invoking command in '/root/ros_ws/build/cable_detection_picking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_ws/build/cable_detection_picking
+[4.746s] -- Install configuration: ""
+[4.746s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/ament_index/resource_index/rosidl_interfaces/cable_detection_picking
+[4.746s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/action/RunPipeline.json
+[4.746s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking
+[4.747s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/msg
+[4.747s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/msg/rosidl_generator_c__visibility_control.h
+[4.747s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action
+[4.747s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/run_pipeline.h
+[4.747s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail
+[4.747s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail/run_pipeline__description.c
+[4.748s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail/run_pipeline__functions.h
+[4.748s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail/run_pipeline__type_support.c
+[4.750s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail/run_pipeline__functions.c
+[4.750s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail/run_pipeline__type_support.h
+[4.750s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail/run_pipeline__struct.h
+[4.750s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/environment/library_path.sh
+[4.750s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/environment/library_path.dsv
+[4.750s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/libcable_detection_picking__rosidl_generator_c.so
+[4.750s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/cable_detection_picking/lib/libcable_detection_picking__rosidl_generator_c.so" to ""
+[4.750s] -- Up-to-date: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking
+[4.750s] -- Up-to-date: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/msg
+[4.750s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.750s] -- Up-to-date: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action
+[4.750s] -- Up-to-date: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail
+[4.750s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail/run_pipeline__rosidl_typesupport_fastrtps_c.h
+[4.750s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/libcable_detection_picking__rosidl_typesupport_fastrtps_c.so
+[4.751s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/cable_detection_picking/lib/libcable_detection_picking__rosidl_typesupport_fastrtps_c.so" to ""
+[4.751s] -- Up-to-date: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking
+[4.751s] -- Up-to-date: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/msg
+[4.751s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.751s] -- Up-to-date: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action
+[4.751s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/run_pipeline.hpp
+[4.751s] -- Up-to-date: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail
+[4.751s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail/run_pipeline__builder.hpp
+[4.751s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail/run_pipeline__type_support.hpp
+[4.751s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail/run_pipeline__traits.hpp
+[4.752s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail/run_pipeline__struct.hpp
+[4.752s] -- Up-to-date: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking
+[4.752s] -- Up-to-date: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/msg
+[4.752s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.754s] -- Up-to-date: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action
+[4.754s] -- Up-to-date: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail
+[4.754s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail/run_pipeline__rosidl_typesupport_fastrtps_cpp.hpp
+[4.754s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail/dds_fastrtps
+[4.754s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/libcable_detection_picking__rosidl_typesupport_fastrtps_cpp.so
+[4.754s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/cable_detection_picking/lib/libcable_detection_picking__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.754s] -- Up-to-date: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking
+[4.754s] -- Up-to-date: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/msg
+[4.754s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.754s] -- Up-to-date: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action
+[4.754s] -- Up-to-date: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail
+[4.754s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail/run_pipeline__rosidl_typesupport_introspection_c.h
+[4.754s] -- Up-to-date: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail/run_pipeline__type_support.c
+[4.754s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/libcable_detection_picking__rosidl_typesupport_introspection_c.so
+[4.755s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/cable_detection_picking/lib/libcable_detection_picking__rosidl_typesupport_introspection_c.so" to ""
+[4.755s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/libcable_detection_picking__rosidl_typesupport_c.so
+[4.755s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/cable_detection_picking/lib/libcable_detection_picking__rosidl_typesupport_c.so" to ""
+[4.755s] -- Up-to-date: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking
+[4.755s] -- Up-to-date: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action
+[4.755s] -- Up-to-date: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail
+[4.755s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail/run_pipeline__type_support.cpp
+[4.755s] -- Installing: /root/ros_ws/install/cable_detection_picking/include/cable_detection_picking/cable_detection_picking/action/detail/run_pipeline__rosidl_typesupport_introspection_cpp.hpp
+[4.755s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/libcable_detection_picking__rosidl_typesupport_introspection_cpp.so
+[4.756s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/cable_detection_picking/lib/libcable_detection_picking__rosidl_typesupport_introspection_cpp.so" to ""
+[4.756s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/libcable_detection_picking__rosidl_typesupport_cpp.so
+[4.756s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/cable_detection_picking/lib/libcable_detection_picking__rosidl_typesupport_cpp.so" to ""
+[4.756s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/environment/pythonpath.sh
+[4.757s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/environment/pythonpath.dsv
+[4.757s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking-0.0.0-py3.12.egg-info
+[4.757s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking-0.0.0-py3.12.egg-info/top_level.txt
+[4.757s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking-0.0.0-py3.12.egg-info/SOURCES.txt
+[4.757s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking-0.0.0-py3.12.egg-info/PKG-INFO
+[4.757s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking-0.0.0-py3.12.egg-info/dependency_links.txt
+[4.757s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking
+[4.760s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/_cable_detection_picking_s.ep.rosidl_typesupport_c.c
+[4.760s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/__init__.py
+[4.760s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/_cable_detection_picking_s.ep.rosidl_typesupport_introspection_c.c
+[4.760s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/cable_detection_picking_s__rosidl_typesupport_introspection_c.so
+[4.760s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/cable_detection_picking_s__rosidl_typesupport_c.so
+[4.760s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/action
+[4.760s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/action/_run_pipeline.py
+[4.760s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/action/__init__.py
+[4.760s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/action/_run_pipeline_s.c
+[4.760s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/_cable_detection_picking_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.760s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/cable_detection_picking_s__rosidl_typesupport_fastrtps_c.so
+[4.802s] Listing '/root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking'...
+[4.802s] Compiling '/root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/__init__.py'...
+[4.802s] Listing '/root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/action'...
+[4.802s] Compiling '/root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/action/__init__.py'...
+[4.802s] Compiling '/root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/action/_run_pipeline.py'...
+[4.807s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/cable_detection_picking_s__rosidl_typesupport_fastrtps_c.so
+[4.807s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/cable_detection_picking_s__rosidl_typesupport_fastrtps_c.so" to ""
+[4.808s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/cable_detection_picking_s__rosidl_typesupport_introspection_c.so
+[4.808s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/cable_detection_picking_s__rosidl_typesupport_introspection_c.so" to ""
+[4.808s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/cable_detection_picking_s__rosidl_typesupport_c.so
+[4.809s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/cable_detection_picking/lib/python3.12/site-packages/cable_detection_picking/cable_detection_picking_s__rosidl_typesupport_c.so" to ""
+[4.809s] -- Installing: /root/ros_ws/install/cable_detection_picking/lib/libcable_detection_picking__rosidl_generator_py.so
+[4.810s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/cable_detection_picking/lib/libcable_detection_picking__rosidl_generator_py.so" to ""
+[4.810s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/action/RunPipeline.idl
+[4.810s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/action/RunPipeline.action
+[4.811s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/ament_index/resource_index/package_run_dependencies/cable_detection_picking
+[4.811s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/ament_index/resource_index/parent_prefix_path/cable_detection_picking
+[4.811s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/environment/ament_prefix_path.sh
+[4.811s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/environment/ament_prefix_path.dsv
+[4.812s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/environment/path.sh
+[4.812s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/environment/path.dsv
+[4.812s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/local_setup.bash
+[4.812s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/local_setup.sh
+[4.813s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/local_setup.zsh
+[4.813s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/local_setup.dsv
+[4.813s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/package.dsv
+[4.813s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/ament_index/resource_index/packages/cable_detection_picking
+[4.814s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/export_cable_detection_picking__rosidl_generator_cExport.cmake
+[4.814s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/export_cable_detection_picking__rosidl_generator_cExport-noconfig.cmake
+[4.814s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/export_cable_detection_picking__rosidl_typesupport_fastrtps_cExport.cmake
+[4.815s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/export_cable_detection_picking__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.815s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/export_cable_detection_picking__rosidl_generator_cppExport.cmake
+[4.815s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/export_cable_detection_picking__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.815s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/export_cable_detection_picking__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.816s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/cable_detection_picking__rosidl_typesupport_introspection_cExport.cmake
+[4.816s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/cable_detection_picking__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.816s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/cable_detection_picking__rosidl_typesupport_cExport.cmake
+[4.817s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/cable_detection_picking__rosidl_typesupport_cExport-noconfig.cmake
+[4.817s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/cable_detection_picking__rosidl_typesupport_introspection_cppExport.cmake
+[4.817s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/cable_detection_picking__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.817s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/cable_detection_picking__rosidl_typesupport_cppExport.cmake
+[4.818s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/cable_detection_picking__rosidl_typesupport_cppExport-noconfig.cmake
+[4.818s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/export_cable_detection_picking__rosidl_generator_pyExport.cmake
+[4.818s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/export_cable_detection_picking__rosidl_generator_pyExport-noconfig.cmake
+[4.818s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/rosidl_cmake-extras.cmake
+[4.819s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.819s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.819s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/ament_cmake_export_libraries-extras.cmake
+[4.820s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/ament_cmake_export_targets-extras.cmake
+[4.820s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.820s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.820s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/cable_detection_pickingConfig.cmake
+[4.821s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/cmake/cable_detection_pickingConfig-version.cmake
+[4.821s] -- Installing: /root/ros_ws/install/cable_detection_picking/share/cable_detection_picking/package.xml
+[4.823s] Invoked command in '/root/ros_ws/build/cable_detection_picking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_ws/build/cable_detection_picking

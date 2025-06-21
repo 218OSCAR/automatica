@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from zivid_interfaces/srv/HandEyeCalibrationCapture.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "zivid_interfaces/msg/DetectionResultCalibrationBoard.idl"
+#include "zivid_interfaces/msg/DetectionResultFiducialMarkers.idl"
+
+module zivid_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "The current pose of the robot." "\n"
+      "" "\n"
+      "Note: Lengths should be given in units of meter. In the Zivid driver, this is converted internally to match the" "\n"
+      "default units of Zivid point clouds which are given in millimeter.")
+    struct HandEyeCalibrationCapture_Request {
+      geometry_msgs::msg::Pose robot_pose;
+    };
+    struct HandEyeCalibrationCapture_Response {
+      boolean success;
+
+      string message;
+
+      @verbatim (language="comment", text=
+        "Capture handle which uniquely identifies this hand-eye capture for the current session. Returns -1 if the capture was" "\n"
+        "not successful. Existing handles are invalidated when a new session is started.")
+      @default (value=-1)
+      int32 capture_handle;
+
+      @verbatim (language="comment", text=
+        "The result of any calibration board detection. Only filled if the current hand-eye calibration session was started" "\n"
+        "with a calibration board as the calibration object.")
+      zivid_interfaces::msg::DetectionResultCalibrationBoard detection_result_calibration_board;
+
+      @verbatim (language="comment", text=
+        "The result of any fiducial markers detection. Only filled if the current hand-eye calibration session was started" "\n"
+        "with fiducial markers as the calibration objects.")
+      zivid_interfaces::msg::DetectionResultFiducialMarkers detection_result_fiducial_markers;
+    };
+  };
+};

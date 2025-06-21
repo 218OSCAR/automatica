@@ -1,0 +1,46 @@
+[0.756s] Invoking command in '/root/ros_ws/src/panda_moveit_python': PYTHONPATH=/root/ros_ws/build/panda_moveit_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/panda_moveit_python/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/panda_moveit_python build --build-base /root/ros_ws/build/panda_moveit_python/build install --record /root/ros_ws/build/panda_moveit_python/install.log --single-version-externally-managed install_data
+[0.903s] running egg_info
+[0.904s] creating ../../build/panda_moveit_python/panda_moveit_python.egg-info
+[0.915s] writing ../../build/panda_moveit_python/panda_moveit_python.egg-info/PKG-INFO
+[0.915s] writing dependency_links to ../../build/panda_moveit_python/panda_moveit_python.egg-info/dependency_links.txt
+[0.915s] writing entry points to ../../build/panda_moveit_python/panda_moveit_python.egg-info/entry_points.txt
+[0.915s] writing requirements to ../../build/panda_moveit_python/panda_moveit_python.egg-info/requires.txt
+[0.915s] writing top-level names to ../../build/panda_moveit_python/panda_moveit_python.egg-info/top_level.txt
+[0.915s] writing manifest file '../../build/panda_moveit_python/panda_moveit_python.egg-info/SOURCES.txt'
+[0.938s] reading manifest file '../../build/panda_moveit_python/panda_moveit_python.egg-info/SOURCES.txt'
+[0.938s] writing manifest file '../../build/panda_moveit_python/panda_moveit_python.egg-info/SOURCES.txt'
+[0.938s] running build
+[0.938s] running build_py
+[0.939s] creating /root/ros_ws/build/panda_moveit_python/build
+[0.939s] creating /root/ros_ws/build/panda_moveit_python/build/lib
+[0.939s] creating /root/ros_ws/build/panda_moveit_python/build/lib/panda_moveit_python
+[0.939s] copying panda_moveit_python/__init__.py -> /root/ros_ws/build/panda_moveit_python/build/lib/panda_moveit_python
+[0.939s] copying panda_moveit_python/motion_planning_python_api_planning_scene.py -> /root/ros_ws/build/panda_moveit_python/build/lib/panda_moveit_python
+[0.939s] copying panda_moveit_python/motion_planning_python_api_tutorial.py -> /root/ros_ws/build/panda_moveit_python/build/lib/panda_moveit_python
+[0.939s] running install
+[0.942s] running install_lib
+[0.953s] creating /root/ros_ws/install/panda_moveit_python/lib/python3.12/site-packages/panda_moveit_python
+[0.953s] copying /root/ros_ws/build/panda_moveit_python/build/lib/panda_moveit_python/__init__.py -> /root/ros_ws/install/panda_moveit_python/lib/python3.12/site-packages/panda_moveit_python
+[0.953s] copying /root/ros_ws/build/panda_moveit_python/build/lib/panda_moveit_python/motion_planning_python_api_planning_scene.py -> /root/ros_ws/install/panda_moveit_python/lib/python3.12/site-packages/panda_moveit_python
+[0.953s] copying /root/ros_ws/build/panda_moveit_python/build/lib/panda_moveit_python/motion_planning_python_api_tutorial.py -> /root/ros_ws/install/panda_moveit_python/lib/python3.12/site-packages/panda_moveit_python
+[0.953s] byte-compiling /root/ros_ws/install/panda_moveit_python/lib/python3.12/site-packages/panda_moveit_python/__init__.py to __init__.cpython-312.pyc
+[0.953s] byte-compiling /root/ros_ws/install/panda_moveit_python/lib/python3.12/site-packages/panda_moveit_python/motion_planning_python_api_planning_scene.py to motion_planning_python_api_planning_scene.cpython-312.pyc
+[0.954s] byte-compiling /root/ros_ws/install/panda_moveit_python/lib/python3.12/site-packages/panda_moveit_python/motion_planning_python_api_tutorial.py to motion_planning_python_api_tutorial.cpython-312.pyc
+[0.954s] running install_data
+[0.955s] creating /root/ros_ws/install/panda_moveit_python/share/ament_index
+[0.955s] creating /root/ros_ws/install/panda_moveit_python/share/ament_index/resource_index
+[0.955s] creating /root/ros_ws/install/panda_moveit_python/share/ament_index/resource_index/packages
+[0.955s] copying resource/panda_moveit_python -> /root/ros_ws/install/panda_moveit_python/share/ament_index/resource_index/packages
+[0.955s] copying package.xml -> /root/ros_ws/install/panda_moveit_python/share/panda_moveit_python
+[0.955s] creating /root/ros_ws/install/panda_moveit_python/share/panda_moveit_python/launch
+[0.955s] copying launch/motion_planning_python_api_tutorial.launch.py -> /root/ros_ws/install/panda_moveit_python/share/panda_moveit_python/launch
+[0.955s] creating /root/ros_ws/install/panda_moveit_python/share/panda_moveit_python/config
+[0.955s] copying config/motion_planning_python_api_tutorial.yaml -> /root/ros_ws/install/panda_moveit_python/share/panda_moveit_python/config
+[0.955s] creating /root/ros_ws/install/panda_moveit_python/lib/panda_moveit_python
+[0.955s] copying launch/motion_planning_python_api_tutorial.launch.py -> /root/ros_ws/install/panda_moveit_python/lib/panda_moveit_python
+[0.955s] running install_egg_info
+[0.967s] Copying ../../build/panda_moveit_python/panda_moveit_python.egg-info to /root/ros_ws/install/panda_moveit_python/lib/python3.12/site-packages/panda_moveit_python-0.0.0-py3.12.egg-info
+[0.967s] running install_scripts
+[1.047s] Installing motion_planning_python_api_tutorial script to /root/ros_ws/install/panda_moveit_python/lib/panda_moveit_python
+[1.047s] writing list of installed files to '/root/ros_ws/build/panda_moveit_python/install.log'
+[1.067s] Invoked command in '/root/ros_ws/src/panda_moveit_python' returned '0': PYTHONPATH=/root/ros_ws/build/panda_moveit_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/panda_moveit_python/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/panda_moveit_python build --build-base /root/ros_ws/build/panda_moveit_python/build install --record /root/ros_ws/build/panda_moveit_python/install.log --single-version-externally-managed install_data
