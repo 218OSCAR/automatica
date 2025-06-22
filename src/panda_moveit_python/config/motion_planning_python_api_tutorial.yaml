@@ -1,0 +1,180 @@
+# ompl_planning_alternative.yaml
+# This file configures the OMPL planning pipeline for MoveIt.
+# It includes a global planning pipeline definition as well as detailed planner configurations.
+# Global planning parameters are set to use a 5-second planning time.
+
+# Define the planning pipelines that will be used.
+planning_pipelines:
+  pipeline_names: ["ompl"]
+
+# Specify the planning plugin to use.
+planning_plugin: ompl_interface/OMPLPlanner
+
+# Global planning request parameters.
+plan_request_params:
+  planner_id: RRTConnectkConfigDefault    # Global default; you can change this to another valid configuration.
+  planning_attempts: 1
+  planning_pipeline: ompl
+  planning_time: 5.0                       # Global planning time: 5 seconds.
+  max_velocity_scaling_factor: 0.2
+  max_acceleration_scaling_factor: 0.2
+
+# Request adapters modify the planning request.
+request_adapters:
+  - default_planning_request_adapters/ResolveConstraintFrames
+  - default_planning_request_adapters/ValidateWorkspaceBounds
+  - default_planning_request_adapters/CheckStartStateBounds
+  - default_planning_request_adapters/CheckStartStateCollision
+  - default_planning_request_adapters/FixWorkspaceBounds
+  - default_planning_request_adapters/FixStartStateBounds
+  - default_planning_request_adapters/FixStartStateCollision
+  - default_planning_request_adapters/FixStartStatePathConstraints
+
+start_state_max_bounds_error: 0.1
+
+# Response adapters process the planning response.
+response_adapters:
+  - default_planning_response_adapters/AddTimeOptimalParameterization
+  - default_planning_response_adapters/ValidateSolution
+  - default_planning_response_adapters/DisplayMotionPath
+
+# Detailed planner configurations.
+planner_configs:
+  SBLkConfigDefault:
+    type: geometric::SBL
+    range: 0.0
+  ESTkConfigDefault:
+    type: geometric::EST
+    range: 0.0
+    goal_bias: 0.05
+  LBKPIECEkConfigDefault:
+    type: geometric::LBKPIECE
+    range: 0.0
+    border_fraction: 0.9
+    min_valid_path_fraction: 0.5
+  BKPIECEkConfigDefault:
+    type: geometric::BKPIECE
+    range: 0.0
+    border_fraction: 0.9
+    failed_expansion_score_factor: 0.5
+    min_valid_path_fraction: 0.5
+  KPIECEkConfigDefault:
+    type: geometric::KPIECE
+    range: 0.0
+    goal_bias: 0.05
+    border_fraction: 0.9
+    failed_expansion_score_factor: 0.5
+    min_valid_path_fraction: 0.5
+  RRTkConfigDefault:
+    type: geometric::RRT
+    range: 0.0
+    goal_bias: 0.05
+  RRTConnectkConfigDefault:
+    type: geometric::RRTConnect
+    range: 0.0
+  RRTstarkConfigDefault:
+    type: geometric::RRTstar
+    range: 0.0
+    goal_bias: 0.05
+    delay_collision_checking: 1
+  TRRTkConfigDefault:
+    type: geometric::TRRT
+    range: 0.0
+    goal_bias: 0.05
+    max_states_failed: 10
+    temp_change_factor: 2.0
+    min_temperature: 1e-9
+    init_temperature: 1e-5
+    frountier_threshold: 0.0
+    frountierNodeRatio: 0.1
+    k_constant: 0.0
+  PRMkConfigDefault:
+    type: geometric::PRM
+    max_nearest_neighbors: 10
+  PRMstarkConfigDefault:
+    type: geometric::PRMstar
+  FMTkConfigDefault:
+    type: geometric::FMT
+    num_samples: 1000
+    radius_multiplier: 1.1
+    nearest_k: 1
+    cache_cc: 1
+    heuristics: 0
+    extended_fmt: 1
+  BFMTkConfigDefault:
+    type: geometric::BFMT
+    num_samples: 1000
+    radius_multiplier: 1.0
+    nearest_k: 1
+    balanced: 0
+    optimality: 1
+    heuristics: 1
+    cache_cc: 1
+    extended_fmt: 1
+  PDSTkConfigDefault:
+    type: geometric::PDST
+  STRIDEkConfigDefault:
+    type: geometric::STRIDE
+    range: 0.0
+    goal_bias: 0.05
+    use_projected_distance: 0
+    degree: 16
+    max_degree: 18
+    min_degree: 12
+    max_pts_per_leaf: 6
+    estimated_dimension: 0.0
+    min_valid_path_fraction: 0.2
+  BiTRRTkConfigDefault:
+    type: geometric::BiTRRT
+    range: 0.0
+    temp_change_factor: 0.1
+    init_temperature: 100
+    frountier_threshold: 0.0
+    frountier_node_ratio: 0.1
+    cost_threshold: 1e300
+  LBTRRTkConfigDefault:
+    type: geometric::LBTRRT
+    range: 0.0
+    goal_bias: 0.05
+    epsilon: 0.4
+  BiESTkConfigDefault:
+    type: geometric::BiEST
+    range: 0.0
+  ProjESTkConfigDefault:
+    type: geometric::ProjEST
+    range: 0.0
+    goal_bias: 0.05
+  LazyPRMkConfigDefault:
+    type: geometric::LazyPRM
+    range: 0.0
+  LazyPRMstarkConfigDefault:
+    type: geometric::LazyPRMstar
+  SPARSkConfigDefault:
+    type: geometric::SPARS
+    stretch_factor: 3.0
+    sparse_delta_fraction: 0.25
+    dense_delta_fraction: 0.001
+    max_failures: 1000
+  SPARStwokConfigDefault:
+    type: geometric::SPARStwo
+    stretch_factor: 3.0
+    sparse_delta_fraction: 0.25
+    dense_delta_fraction: 0.001
+    max_failures: 5000
+  TrajOptDefault:
+    type: geometric::TrajOpt
+
+ur:
+  planner_configs:
+    - SBLkConfigDefault
+    - ESTkConfigDefault
+    - LBKPIECEkConfigDefault
+    - BKPIECEkConfigDefault
+    - KPIECEkConfigDefault
+    - RRTkConfigDefault
+    - RRTConnectkConfigDefault
+    - RRTstarkConfigDefault
+    - TRRTkConfigDefault
+    - PRMkConfigDefault
+    - PRMstarkConfigDefault
+  longest_valid_segment_fraction: 0.01

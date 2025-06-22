@@ -1,0 +1,44 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Visual Studio Code settings
+.vscode/
+
+# CMake and other temp files
+CMakeFiles/
+CMakeCache.txt
+*.swp
+*.bak
+
+# Git
+*.orig
+*.rej
+
+# Misc
+.DS_Store
+
+__pycache__
+helpers/__pycache__
+mmdet/__pycache__
+rtde/__pycache__
+rtdlo/__pycache__
+*/__pycache__/*
+/__pycache__/
+__pycache__/*
+*.pyc
+*.pyo
+__pycache__/
+data/camera_image/
+data/camera_pointcloud/
+data/depth_image/
+data/
+*.json
+*.ply
+*.npz
+

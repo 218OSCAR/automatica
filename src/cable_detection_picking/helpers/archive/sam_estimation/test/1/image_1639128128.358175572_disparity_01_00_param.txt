@@ -1,0 +1,17 @@
+camera.A=[1083.19000 0 640.00000; 0 1083.19000 480.00000; 0 0 1]
+camera.width=1280
+camera.height=960
+camera.exposure_time=0.00222
+camera.gain=-0.00000
+camera.noise=3.000000
+camera.test=0
+camera.out1_reduction=0.190000
+camera.brightness=0.510000
+camera.output_mask=3
+camera.input_mask=12
+camera.auto_exposure_adapting=0
+rho=70.35140
+t=0.06495
+disp.inv=0
+disp.scale=0.06250
+disp.offset=0
